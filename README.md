@@ -1,1 +1,1 @@
-# Dynamic_Chromatin_Model
+# hi-c_model_validation
