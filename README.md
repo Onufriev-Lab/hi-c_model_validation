@@ -1,6 +1,4 @@
-##The Spread of Euclidean Spatial Distance among Individual
-Cells in Different Genomic Distances Grants a Robust
-Approach to Compare Single-cell Chromatin Models
+## The Spread of Euclidean Spatial Distance among Individual Cells in Different Genomic Distances Grants a Robust Approach to Compare Single-cell Chromatin Models
 ![Comparison Image](figures/MC-TAD.drawio.jpg)
 
 ## Calculate Rs plots:
