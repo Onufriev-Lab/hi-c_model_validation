@@ -26,12 +26,13 @@ By Samira Mali, Igor S Tolokh, Erik Cross, Igor V Sharakhov, Alexey V Onufriev
 - **Read_pdb_Rs_Ulianov.py**: Read files in mol2 format from reference [1] and calculates <Rs> as average elements over each diagonal in the distance matrix. So, we have 18 Rs values corresponding to each genomic distance (fixed stop).
 - **new_fig_5d_Ulianov_1.py**: To draw Rs plots of Reference [1], both normalized to the TAD size and unnormalized ones (sliding window). 
 - **ContactProbability_Alber_unnormalized_with_shift.py**: Both normalized and unnormalized Rs plots for 18 genomic structures out of 10000 in reference [2]. We applied the same random "shifting" as ours for consistency’s sake.  
-- **End_to_end_distance_pdb_Ulianov.py**: Read every mol2 file (trajectories of Reference [1]) and calculate end-to-end distance of the chromatin configurations.
+- **End_to_end_distance_pdb_Ulianov.py**: Read every mol2 file (trajectories of Reference [1]) and calculate the end-to-end distance of the chromatin configurations.
 - **end_end_distance_box_plot.py**: Compare the end-to-end distance of chromosome X in Drosophila. Basically, each boxplot shows the total configurations. It needs to be changed to the 18 ones to have consistency with the Rs plot later. 
-- **boxplot_Alber_end_to_end_dist_new__difBox.py**: Compare the end-to-end distance of chromosome X in Drosophila. We chose 18 ones from both this work and reference [3] to have consistency with the Rs plot later.
+- **boxplot_Alber_end_to_end_dist_new__difBox.py**: Compare the end-to-end distance of chromosome X in Drosophila. We chose 18 ones from both this work and Li 2017 to have consistency with the Rs plot later.
+- **RadGyr_Tolokh.cpp**: Calculate the Radius of Gyration for every configuration in Tolokh 2023.
 - **Radius_gyration.py**: To compare Radius of Gyration between this work and reference [2]
-- **Read_pdb_Rg_Ulianov.py**: Read files in mol2 format from reference [1] and calculate Radius of Gyration for each single cell.
-- **Contact_decay_Tolokh.py**: To draw the Rs plot from Hi-C contact map of reference [6], the Hi-C contact map related to the average over all 400K snapshots of all 18 trajectories in MD simulation for Chr X.
+- **Read_pdb_Rg_Ulianov.py**: Read files in mol2 format from reference [1] and calculate the Radius of Gyration for each single cell.
+- **Contact_decay_Tolokh.py**: To draw the Rs plot from the Hi-C contact map of reference [6], the Hi-C contact map related to the average over all 400K snapshots of all 18 trajectories in MD simulation for Chr X.
 - **Ours_Trajectories.py**: Draw the Rs plots plus scaling for this work, directly calculated from coordinates.
 - **Rs_plot_Sexton_Experiment.py**: Draw the Rs plots plus scaling for Reference [3], Drosophila population Hi-C experiment. Since there is no information regarding the spatial distance in this work, we used their contact probability data and transferred them to Rs by assuming it follows the Rouse model from Reference [4]. 
 - **contact_pobability_ours.py**: Calculates and represents different regimes in scaling properties of polymer chains in this work plus reference [1], reference [2], and reference [3].
