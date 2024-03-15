@@ -2,6 +2,30 @@
 By Samira Mali, Igor S Tolokh, Erik Cross, Igor V Sharakhov, Alexey V Onufriev
 ![Comparison Image](figures/MC-TAD.drawio.jpg)
 
+To computes the Rs plots of the genome in your model, 
+1. Compile the C++ code:
+'g++ Rs_plots.cpp -std=c++11 -oRs_plots'
+2. Run the C++ code: 
+ './Rs_plots 1F/sim_3h41h_1h1hBh_r20_G001_400M_Act/TRANS_X3S/simulation.vtf LamSites_bID_0.txt 0.2 72 73 >HiC_1st_tau_1min'
+
+
+
+
+ which is for chr X as well.
+
+Basically, the inputs are the vtf files (trajectories), start and ending time scales as well as LamSite_bID_0.txt. 
+Steps:
+
+1. Compile the C++ code:
+g++ Rs_plots.cpp -std=c++11 -oRs_plots
+2. Run the C++ code: 
+ ./Rs_plots 1F/sim_3h41h_1h1hBh_r20_G001_400M_Act/TRANS_X3S/simulation.vtf LamSites_bID_0.txt 0.2 72 73 >HiC_1st_tau_1min
+
+The outputs are 184 "Rs" values corresponding to each specific genomic distances.
+
+This code is for asynchronized cells. The algorithm is based on Alexey's thought to define a "tau" as the maximum age of the cells. We take a trajectory (one by one);
+to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min.
+
 ## Calculate Rs plots:
 
 - **Rs_plots.cpp**: Calculate Rs values for all trajectories and time scales in chr X of Drosophila using the "fixed stop" approach. Correlation issues with the sliding window approach are explained [5].
