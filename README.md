@@ -2,7 +2,7 @@
 By Samira Mali, Igor S Tolokh, Erik Cross, Igor V Sharakhov, Alexey V Onufriev
 ![Comparison Image](figures/MC-TAD.drawio.jpg)
 
-To compute the Rs plots of the genome in your model, 
+## To compute the Rs plots of the genome in your model 
 1. Compile the C++ code
 ```
 g++ Rs_plots.cpp -std=c++11 -oRs_plots
@@ -15,15 +15,11 @@ The inputs of the C++ code include the trajectory file, the LamSites text file, 
 to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min. The trajectory file in Ref[] include 400,000 snapshots.
 
 The outputs are the "Rs" values corresponding to each specific genomic distance.
-
- 
-
-## Calculate Rs plots:
-
-- **Rs_plots.cpp**: Calculate Rs values for all trajectories and time scales in chr X of Drosophila using the "fixed stop" approach. Correlation issues with the sliding window approach are explained [5].
-- **generation_single_cells_HiC_10min.py**: Generate the bash script to run the cpp code for different trajectories and time scales.
-
-## MC-TAD:
+3. To generate the bash script to run the cpp code for different trajectories and time scales, run
+ ```
+python3 generation_single_cells_HiC_10min.py
+```
+## MC-TAD Algorithm to refine the representation of the polymer chain from the lower resolution to a higher one:
 
 - **3D_new_fast.py**: Generates permissible paths inside one cube using Monte Carlo algorithm.
 - **secondCube_Box1_fast2.py**: Continues the path to the second cube with specified conditions.
