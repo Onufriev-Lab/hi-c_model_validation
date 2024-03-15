@@ -62,11 +62,11 @@ python3 Read_pdb_Rs_Ulianov.py
 ```
 4. To draw Rs plots of Reference [1], both normalized to the TAD size and unnormalized ones (sliding window), run
 ```
-new_fig_5d_Ulianov_1.py
+python3 new_fig_5d_Ulianov_1.py
 ```
 5. In order to compute both normalized and unnormalized Rs plots for selected genomic structures in reference [2], run
 ```
-ContactProbability_Alber_unnormalized_with_shift.py
+python3 ContactProbability_Alber_unnormalized_with_shift.py
 ```
 6. To calculate the end-to-end distance of the chromatin configurations, run
 ```
