@@ -9,7 +9,7 @@ g++ Rs_plots.cpp -std=c++11 -oRs_plots
 ```
 2. Run the C++ code (Your simulation trajectory file needs to be in vtf format):
 ```
-./Rs_plots simulation.vtf LamSites_bID_0.txt 0.2 72 72 >HiC_1st_tau_1min
+./Rs_plots simulation.vtf LamSites_bID_0.txt 0.2 72 72 >1st_tau_1min
 ```
 The inputs of the C++ code include the trajectory file, the LamSites text file, the tolerance to reflect the fluctuation of a TAD shape (0.2 or 0.1 micron) and the specific time frame obtained from the selection algorithm. The algorithm is based on a defined "tau" as the maximum age of the Drosophila nuclei. We take a trajectory (one by one);
 to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min. The trajectory file in Ref[] include 400,000 snapshots.
