@@ -2,7 +2,7 @@
 By Samira Mali, Igor S Tolokh, Erik Cross, Igor V Sharakhov, Alexey V Onufriev
 ![Comparison Image](figures/MC-TAD.drawio.jpg)
 
-To computes the Rs plots of the genome in your model, 
+To compute the Rs plots of the genome in your model, 
 1. Compile the C++ code
 ```
 g++ Rs_plots.cpp -std=c++11 -oRs_plots
