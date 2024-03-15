@@ -7,7 +7,7 @@ To computes the Rs plots of the genome in your model,
 ```
 g++ Rs_plots.cpp -std=c++11 -oRs_plots
 ```
-2. Run the C++ code:
+2. Run the C++ code (Your simulation file needs to be in vtf format):
 ```
 ./Rs_plots 1F/sim_3h41h_1h1hBh_r20_G001_400M_Act/TRANS_X3S/simulation.vtf LamSites_bID_0.txt 0.2 72 73 >HiC_1st_tau_1min
 ```
