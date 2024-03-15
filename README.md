@@ -76,16 +76,20 @@ python3 End_to_end_distance_pdb_Ulianov.py
 ```
 python3 boxplot_Alber_end_to_end_dist_new__difBox.py
 ```
-8. To calculate the Radius of Gyration for every configuration, 
+8. To calculate the Radius of Gyration for every configuration in vtf format, 
 ```
 g++ RadGyr_Tolokh.cpp -std=c++11 -oRadGyr_Tolokh
+./RadGyr_Tolokh simulation.vtf LamSites_bID_0.txt 0.2 1 1 >Rad_Gyr
 
-- **Radius_gyration.py**: To compare Radius of Gyration between this work and reference [2]
-- **Read_pdb_Rg_Ulianov.py**: Read files in mol2 format from reference [1] and calculate the Radius of Gyration for each single cell.
-- **Contact_decay_Tolokh.py**: To draw the Rs plot from the Hi-C contact map of reference [6], the Hi-C contact map related to the average over all 400K snapshots of all 18 trajectories in MD simulation for Chr X.
-- **Ours_Trajectories.py**: Draw the Rs plots plus scaling for this work, directly calculated from coordinates.
-- **Rs_plot_Sexton_Experiment.py**: Draw the Rs plots plus scaling for Reference [3], Drosophila population Hi-C experiment. Since there is no information regarding the spatial distance in this work, we used their contact probability data and transferred them to Rs by assuming it follows the Rouse model from Reference [4]. 
-- **contact_pobability_ours.py**: Calculates and represents different regimes in scaling properties of polymer chains in this work plus reference [1], reference [2], and reference [3].
+```
+9. To calculate the Radius of Gyration for every configuration in mol2 format
+```
+python3 Read_pdb_Rg_Ulianov.py
+```
+10. To compare Radius of Gyration between Ref [1] and ref [2], run
+```
+python3 Radius_gyration.py
+```
 
 
 ## References
