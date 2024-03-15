@@ -76,8 +76,10 @@ python3 End_to_end_distance_pdb_Ulianov.py
 ```
 python3 boxplot_Alber_end_to_end_dist_new__difBox.py
 ```
+8. To calculate the Radius of Gyration for every configuration, 
+```
+g++ RadGyr_Tolokh.cpp -std=c++11 -oRadGyr_Tolokh
 
-- **RadGyr_Tolokh.cpp**: Calculate the Radius of Gyration for every configuration in Tolokh 2023.
 - **Radius_gyration.py**: To compare Radius of Gyration between this work and reference [2]
 - **Read_pdb_Rg_Ulianov.py**: Read files in mol2 format from reference [1] and calculate the Radius of Gyration for each single cell.
 - **Contact_decay_Tolokh.py**: To draw the Rs plot from the Hi-C contact map of reference [6], the Hi-C contact map related to the average over all 400K snapshots of all 18 trajectories in MD simulation for Chr X.
