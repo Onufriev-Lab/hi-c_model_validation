@@ -25,7 +25,7 @@ python3 generation_single_cells_HiC_10min.py
 ```
 python3 3D_new_fast.py
 ```
-2. To continues the path to the second cube with specified conditions, run
+2. To continue the paths to the second cube with specified conditions, run
 ```
 python3 secondCube_Box1_fast2.py
 ```
