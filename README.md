@@ -39,19 +39,44 @@ python3 SumArr.py
 ```   
 Rscript hist_end_to_end_distance_ggplot.R
 ```
-- **inverse_sampling_estimate_parameters_Gauss.R**: Method to fit values to Gaussian distribution using inverse sampling.
-- **combined_plots_inverse_sampling.R**: Compares the inverse sampling method to fit to the normal distribution with actual data distribution.
-
+2. To fit the values to Gaussian distribution using inverse sampling, run
+```
+Rscript inverse_sampling_estimate_parameters_Gauss.R
+```
+3. To see the comparison between the inverse sampling method with actual data distribution to fit to the normal distribution, run
+```
+Rscript combined_plots_inverse_sampling.R
+```
 ## Comparing different models:
+1. To draw the Rs plots with resolution effects before incorporate the shifting process, run
+```
+python3 newDistFig5d_before_shifting_up_down.py
+```
+2. To draw Rs plots considering end-to-end distance distribution and resolution effects, run
+```
+python3 newdistfig5d_New.py
+```
+3. To compute Rs values with trajectories in mol2 format, run
+```
+python3 Read_pdb_Rs_Ulianov.py
+```
+4. To draw Rs plots of Reference [1], both normalized to the TAD size and unnormalized ones (sliding window), run
+```
+new_fig_5d_Ulianov_1.py
+```
+5. In order to compute both normalized and unnormalized Rs plots for selected genomic structures in reference [2], run
+```
+ContactProbability_Alber_unnormalized_with_shift.py
+```
+6. To calculate the end-to-end distance of the chromatin configurations, run
+```
+python3 End_to_end_distance_pdb_Ulianov.py
+```
+7. To compare the end-to-end distance of chromatin configurations, run
+```
+python3 boxplot_Alber_end_to_end_dist_new__difBox.py
+```
 
-- **newDistFig5d_before_shifting_up_down.py**: Draw Rs plots of this work with resolution effects.
-- **newdistfig5d_New.py**: Draw Rs plots of this work considering end-to-end distance distribution and resolution effects.
-- **Read_pdb_Rs_Ulianov.py**: Read files in mol2 format from reference [1] and calculates <Rs> as average elements over each diagonal in the distance matrix. So, we have 18 Rs values corresponding to each genomic distance (fixed stop).
-- **new_fig_5d_Ulianov_1.py**: To draw Rs plots of Reference [1], both normalized to the TAD size and unnormalized ones (sliding window). 
-- **ContactProbability_Alber_unnormalized_with_shift.py**: Both normalized and unnormalized Rs plots for 18 genomic structures out of 10000 in reference [2]. We applied the same random "shifting" as ours for consistency’s sake.  
-- **End_to_end_distance_pdb_Ulianov.py**: Read every mol2 file (trajectories of Reference [1]) and calculate the end-to-end distance of the chromatin configurations.
-- **end_end_distance_box_plot.py**: Compare the end-to-end distance of chromosome X in Drosophila. Basically, each boxplot shows the total configurations. It needs to be changed to the 18 ones to have consistency with the Rs plot later. 
-- **boxplot_Alber_end_to_end_dist_new__difBox.py**: Compare the end-to-end distance of chromosome X in Drosophila. We chose 18 ones from both this work and Li 2017 to have consistency with the Rs plot later.
 - **RadGyr_Tolokh.cpp**: Calculate the Radius of Gyration for every configuration in Tolokh 2023.
 - **Radius_gyration.py**: To compare Radius of Gyration between this work and reference [2]
 - **Read_pdb_Rg_Ulianov.py**: Read files in mol2 format from reference [1] and calculate the Radius of Gyration for each single cell.
