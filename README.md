@@ -13,25 +13,36 @@ g++ Rs_plots.cpp -std=c++11 -oRs_plots
 ```
 The inputs of the C++ code include the trajectory file, the LamSites text file, the tolerance to reflect the fluctuation of a TAD shape (0.2 or 0.1 micron) and the specific time frame obtained from the selection algorithm. The algorithm is based on a defined "tau" as the maximum age of the Drosophila nuclei. We take a trajectory (one by one);
 to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min. The trajectory file in Ref[] include 400,000 snapshots.
-
 The outputs are the "Rs" values corresponding to each specific genomic distance.
+
 3. To generate the bash script to run the cpp code for different trajectories and time scales, run
  ```
 python3 generation_single_cells_HiC_10min.py
 ```
-## MC-TAD Algorithm to refine the representation of the polymer chain from the lower resolution to a higher one:
+## MC-TAD Algorithm to refine the representation of the polymer chain from the lower resolution to a higher one
 
-- **3D_new_fast.py**: Generates permissible paths inside one cube using Monte Carlo algorithm.
-- **secondCube_Box1_fast2.py**: Continues the path to the second cube with specified conditions.
-- **SumArr.py**: Performs statistical operations on results of MC-TAD.
+1.  To generate permissible paths inside one cube using Monte Carlo algorithm, run
+```
+python3 3D_new_fast.py
+```
+2. To continues the path to the second cube with specified conditions, run
+```
+python3 secondCube_Box1_fast2.py
+```
+3. To performs statistical operations on results of MC-TAD, run
+```
+python3 SumArr.py 
+```
+## Statistics for results of MC-TAD
 
-## Statistics for results of MC-TAD:
-
-- **hist_end_to_end_distance_ggplot.R**: Density histogram plot of end-to-end distance of TAD chains from MC-TAD algorithm.
+1. To obtain the density histogram plot of end-to-end distance of TAD chains from MC-TAD algorithm, run
+```   
+Rscript hist_end_to_end_distance_ggplot.R
+```
 - **inverse_sampling_estimate_parameters_Gauss.R**: Method to fit values to Gaussian distribution using inverse sampling.
 - **combined_plots_inverse_sampling.R**: Compares the inverse sampling method to fit to the normal distribution with actual data distribution.
 
-## Comparing three models/experiments:
+## Comparing different models:
 
 - **newDistFig5d_before_shifting_up_down.py**: Draw Rs plots of this work with resolution effects.
 - **newdistfig5d_New.py**: Draw Rs plots of this work considering end-to-end distance distribution and resolution effects.
