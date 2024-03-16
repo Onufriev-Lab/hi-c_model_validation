@@ -37,7 +37,7 @@ python3 SumArr.py
 
 1. To obtain the density histogram plot of end-to-end distance of TAD chains from MC-TAD algorithm, run
 ```   
-Rscript hist_end_to_end_distance_ggplot.R
+Rscript hist_with_distribution_line.R
 ```
 2. To fit the values to Gaussian distribution using inverse sampling, run
 ```
