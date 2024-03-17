@@ -1,6 +1,6 @@
 ## The Spread of Euclidean Distances between Chromatin Loci among Individual Cells at Different Genomic Distances Grants a Robust Approach to Compare Single-Cell Chromatin Models
 By Samira Mali, Igor S Tolokh, Erik Cross, Igor V Sharakhov, Alexey V Onufriev
-![Comparison Image](figures/MC-TAD.drawio.jpg)
+
 
 ## To compute the Rs plots of the chromatin cinfigurations in your model 
 1. Compile the C++ code
