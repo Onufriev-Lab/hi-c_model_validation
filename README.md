@@ -18,6 +18,18 @@ The outputs are the "Rs" values corresponding to each specific genomic distance.
  ```
 python3 generation_single_cells_HiC_10min.py
 ```
+4. To draw the Rs plots with resolution effects before incorporate the shifting process, run
+```
+python3 newDistFig5d_before_shifting_up_down.py
+```
+5. To draw Rs plots considering end-to-end distance distribution and resolution effects, run
+```
+python3 newdistfig5d_New.py
+```
+6. To compute Rs values with trajectories in mol2 format, run
+```
+python3 Read_pdb_Rs_Ulianov.py
+```
 ## MC-TAD Algorithm to refine the representation of the polymer chain from the lower resolution to a higher one
 
 1.  To generate permissible paths inside one cube using Monte Carlo algorithm, run
@@ -32,65 +44,6 @@ python3 secondCube_Box1_fast2.py
 ```
 python3 SumArr.py 
 ```
-## Statistics for results of MC-TAD
-
-1. To obtain the density histogram plot of end-to-end distance of TAD chains from MC-TAD algorithm, run
-```   
-Rscript hist_with_distribution_line.R
-```
-2. To fit the values to Gaussian distribution using inverse sampling, run
-```
-Rscript inverse_sampling_estimate_parameters_Gauss.R
-```
-3. To see the comparison between the inverse sampling method with actual data distribution to fit to the normal distribution, run
-```
-Rscript combined_plots_inverse_sampling.R
-```
-## Comparing different models:
-1. To draw the Rs plots with resolution effects before incorporate the shifting process, run
-```
-python3 newDistFig5d_before_shifting_up_down.py
-```
-2. To draw Rs plots considering end-to-end distance distribution and resolution effects, run
-```
-python3 newdistfig5d_New.py
-```
-3. To compute Rs values with trajectories in mol2 format, run
-```
-python3 Read_pdb_Rs_Ulianov.py
-```
-4. To draw Rs plots of Reference [1], both normalized to the TAD size and unnormalized ones (sliding window), run
-```
-python3 new_fig_5d_Ulianov_1.py
-```
-5. In order to compute both normalized and unnormalized Rs plots for selected genomic structures in reference [2], run
-```
-python3 ContactProbability_Alber_unnormalized_with_shift.py
-```
-6. To calculate the end-to-end distance of the chromatin configurations, run
-```
-python3 End_to_end_distance_pdb_Ulianov.py
-```
-7. To compare the end-to-end distance of chromatin configurations, run
-```
-python3 boxplot_Alber_end_to_end_dist_new__difBox.py
-```
-8. To calculate the Radius of Gyration for every configuration in vtf format, 
-```
-g++ RadGyr_Tolokh.cpp -std=c++11 -oRadGyr_Tolokh
-./RadGyr_Tolokh simulation.vtf LamSites_bID_0.txt 0.2 1 1 >Rad_Gyr
-
-```
-9. To calculate the Radius of Gyration for every configuration in mol2 format
-```
-python3 Read_pdb_Rg_Ulianov.py
-```
-10. To compare Radius of Gyration between Ref [1] and ref [2], run
-```
-python3 Radius_gyration.py
-```
-
-
 ## References
 
 [1] Ulianov, S.V., Zakharova, V.V., Galitsyna, A.A., ... Gavrilov, A.A., 2021. Order and stochasticity in the folding of individual Drosophila genomes. Nature communications, 12(1), p.41.
