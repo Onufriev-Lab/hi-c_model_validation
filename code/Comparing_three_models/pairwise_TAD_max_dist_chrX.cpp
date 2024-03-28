@@ -271,9 +271,7 @@ void TTMatrix::parseVTF(std::ifstream& inFile, std::ifstream& radFile, double to
                     genomicDis[j-i] += finalDis[i][j];
                     
                 }
-                
-                
-                
+                           
                 //disCount++;
             }
         } */
