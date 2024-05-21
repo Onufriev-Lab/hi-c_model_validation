@@ -1,5 +1,5 @@
 ## The Spread of Euclidean Distances between Chromatin Loci among Individual Cells at Different Genomic Distances Grants a Robust Approach to Compare Single-Cell Chromatin Models
-![Slinkies](images/chromatin_model.png)
+![Slinkies](figures/slinkies.png)
 
 
 ## To compute the Rs plots of the chromatin configurations in your model 
