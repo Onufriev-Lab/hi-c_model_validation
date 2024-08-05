@@ -1,4 +1,4 @@
-## The Spread of Euclidean Distances between Chromatin Loci among Individual Cells at Different Genomic Distances Grants a Robust Approach to Compare Single-Cell Chromatin Models
+## Quantifying Conformational Diversity of 3D Genome Organization in Fruit Fly
 ![Slinkies](figures/slinkies.png)
 
 
