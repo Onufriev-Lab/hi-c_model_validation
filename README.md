@@ -19,11 +19,11 @@ The outputs are the "Rs" values corresponding to each specific genomic distance.
 ```
   ./<topology_name>.script
 ```
-3. To visualize Rs valuse across the genome before incorporate the up-conversion, run
+3. To visualize Rs valuse across the genome before incorporate the up-conversion for Tolokh et. al model, run
 ```
 python3 newDistFig5d_before_shifting_up_down.py
 ```
-4. To draw Rs plots considering both up-conversion and normalization, run
+4. To visualize Rs values after both up-conversion and normalization for Tolokh et. al model, run
 ```
 python3 newdistfig5d_New.py
 ```
