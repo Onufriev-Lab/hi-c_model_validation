@@ -2,7 +2,7 @@
 ![Slinkies](figures/slinkies.png)
 
 
-## To compute the Rs plots of the chromatin configurations in your model 
+## To Compute Relative Conformational Diversity 
 1. Compile the C++ code
 ```
 g++ Rs_plots.cpp -std=c++11 -oRs_plots
@@ -19,11 +19,11 @@ The outputs are the "Rs" values corresponding to each specific genomic distance.
  ```
 python3 generation_single_cells_HiC_10min.py
 ```
-4. To draw the Rs plots with resolution effects before incorporate the shifting process, run
+4. To draw the Rs plots with resolution effects before incorporate the up-conversion, run
 ```
 python3 newDistFig5d_before_shifting_up_down.py
 ```
-5. To draw Rs plots considering end-to-end distance distribution and resolution effects, run
+5. To draw Rs plots considering both up-conversion and normalization, run
 ```
 python3 newdistfig5d_New.py
 ```
@@ -33,17 +33,17 @@ python3 Read_pdb_Rs_Ulianov.py
 ```
 ## MC-TAD Algorithm to refine the representation of the polymer chain from the lower resolution to a higher one
 
-1.  To generate permissible paths inside one cube using Monte Carlo algorithm, run
+1.  To generate permissible paths inside two cubes in Y+- and Z+- direction using Monte Carlo algorithm, run
 ```
-python3 3D_new_fast.py
+python3 #1_Distance_4Y_direction.py
 ```
-2. To continue the paths to the second cube with specified conditions, run
+2. To generate permissible paths inside two cubes in X+ directions, run
 ```
-python3 secondCube_Box1_fast2.py
+python3 #2_Distance_X_direction.py
 ```
 3. To performs statistical operations on results of MC-TAD, run
 ```
-python3 SumArr.py 
+python3 #3_Sum4Y_X_unique_4_4_4.py 
 ```
 ## References
 
