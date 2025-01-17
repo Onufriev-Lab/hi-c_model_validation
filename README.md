@@ -3,11 +3,16 @@
 
 
 ## To Compute Relative Conformational Diversity 
-1. Compile the C++ code
+1. To compute Rs values from trajectories in mol2 format, run
+```
+python3 Read_pdb_Rs_Ulianov.py
+```
+2. To compute Rs values from trajectories in VTF format, run
+   Compile the C++ code
 ```
 g++ Rs_plots.cpp -std=c++11 -oRs_plots
 ```
-2. Run the C++ code (Your simulation trajectory file needs to be in vtf format)
+   Run the C++ code (Your simulation trajectory file needs to be in vtf format)
 ```
 ./Rs_plots simulation.vtf LamSites_bID_0.txt 0.2 72 72 >1st_tau_1min
 ```
@@ -17,7 +22,7 @@ The outputs are the "Rs" values corresponding to each specific genomic distance.
 
 3. To generate the bash script to run the cpp code for different trajectories and time scales, run
  ```
-python3 generation_single_cells_HiC_10min.py
+python3 #1_generation_single_cells_HiC_10min.py
 ```
 4. To draw the Rs plots with resolution effects before incorporate the up-conversion, run
 ```
@@ -27,10 +32,7 @@ python3 newDistFig5d_before_shifting_up_down.py
 ```
 python3 newdistfig5d_New.py
 ```
-6. To compute Rs values with trajectories in mol2 format, run
-```
-python3 Read_pdb_Rs_Ulianov.py
-```
+
 ## MC-TAD Algorithm to refine the representation of the polymer chain from the lower resolution to a higher one
 
 1.  To generate permissible paths inside two cubes in Y+- and Z+- direction using Monte Carlo algorithm, run
