@@ -41,7 +41,7 @@ python3 #1_Distance_4Y_direction.py
 ```
 python3 #2_Distance_X_direction.py
 ```
-3. To performs statistical operations on results of MC-TAD, run
+3. To extract the unique paths inside two cubes, run
 ```
 python3 #3_Sum4Y_X_unique_4_4_4.py 
 ```
