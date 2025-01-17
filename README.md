@@ -7,7 +7,8 @@
 ```
 python3 Read_pdb_Rs_Ulianov.py
 ```
-2. To compute Rs values from trajectories in VTF format, run
+2. To compute Rs values from trajectories in VTF format,
+   
    Compile the C++ code
 ```
 g++ Rs_plots.cpp -std=c++11 -oRs_plots
