@@ -8,23 +8,15 @@
 python3 Read_pdb_Rs_Ulianov.py
 ```
 2. To compute Rs values from trajectories in VTF format,
-   
-   Compile the C++ code
-```
-g++ Rs_plots.cpp -std=c++11 -oRs_plots
-```
-   Run the C++ code (Your simulation trajectory file needs to be in vtf format)
-```
-./Rs_plots simulation.vtf LamSites_bID_0.txt 0.2 72 72 >1st_tau_1min
+
+    generate the bash script to run the an executable file for different trajectories and time scales, run
+ ```
+python3 #1_generation_single_cells_HiC_10min.py
 ```
 The inputs of the C++ code include the trajectory file, the LamSites text file, and the specific time frame obtained from the selection algorithm. The algorithm is based on a defined "tau" as the maximum age of the Drosophila nuclei. We take a trajectory (one by one);
 to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min. The trajectory file in Ref[2] include 400,000 snapshots.
 The outputs are the "Rs" values corresponding to each specific genomic distance.
 
-3. To generate the bash script to run the cpp code for different trajectories and time scales, run
- ```
-python3 #1_generation_single_cells_HiC_10min.py
-```
 4. To draw the Rs plots with resolution effects before incorporate the up-conversion, run
 ```
 python3 newDistFig5d_before_shifting_up_down.py
