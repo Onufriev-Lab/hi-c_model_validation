@@ -16,7 +16,7 @@ python3 #2_Distance_X_direction.py
 python3 #3_Sum4Y_X_unique_4_4_4.py 
 ```
 
-## To Compute Relative Conformational Diversity
+## To Compute Rs 
 
 ### Conformations in mol2 format:
 To compute Rs values from trajectories, run
@@ -43,13 +43,14 @@ The inputs of the C++ code include the trajectory file, the LamSites text file, 
 to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min. The trajectory file in Ref[2] include 400,000 snapshots.
 The outputs are the "Rs" values corresponding to each specific genomic distance.
 
-3. To compute and visualize Rs and CV valuse across the genome before incorporate the up-conversion, run
+## To Compute Relative Rs, CV and Relative CV 
+To compute CV valuse across the genome before incorporate the up-conversion, run
 ```
-python3 Relative_Rs_before_UpConversion.py
+python3 Rs_CV_before_UpConversion.py
 ```
-4. To compute and visualize Relative Rs and relative CV values across the genome after both up-conversion, run
+To compute Relative Rs and Relative CV values across the genome after up-conversion, run
 ```
-python3 Relative_Rs.py
+python3 Relative_Rs_CV.py
 ```
 
 
