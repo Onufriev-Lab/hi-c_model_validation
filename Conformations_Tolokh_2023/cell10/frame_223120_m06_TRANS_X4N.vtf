@@ -1,0 +1,1468 @@
+atom 136 radius 0.09 name X type 323 q 1.0
+atom 21,57,98 radius 0.15 name X type 13 q 2.0
+atom 115,163 radius 0.15 name X type 13 q 2.0
+atom 169 radius 0.09 name X type 332 q 1.0
+atom 121 radius 0.08 name X type 52 q 2.0
+atom 125,157 radius 0.11 name X type 154 q 2.0
+atom 48 radius 0.1 name X type 292 q 1.0
+atom 27,53 radius 0.1 name X type 22 q 2.0
+atom 80,119,160 radius 0.1 name X type 22 q 2.0
+atom 24,28,43,171 radius 0.12 name X type 61 q 2.0
+atom 12 radius 0.12 name X type 281 q 2.0
+atom 99 radius 0.1 name X type 311 q 1.0
+atom 23 radius 0.14 name X type 31 q 2.0
+atom 123,139 radius 0.06 name X type 21 q 1.0
+atom 144,150 radius 0.06 name X type 21 q 1.0
+atom 42 radius 0.1 name X type 289 q 2.0
+atom 132 radius 0.11 name X type 320 q 1.0
+atom 128 radius 0.11 name X type 319 q 1.0
+atom 10,33,47,59,103 radius 0.11 name X type 39 q 2.0
+atom 176 radius 0.12 name X type 40 q 2.0
+atom 64,111 radius 0.12 name X type 298 q 2.0
+atom 162 radius 0.08 name X type 328 q 1.0
+atom 41,45,61 radius 0.07 name X type 288 q 1.0
+atom 124 radius 0.1 name X type 317 q 2.0
+atom 182 radius 0.14 name X type 337 q 1.0
+atom 106 radius 0.06 name X type 179 q 1.0
+atom 63 radius 0.1 name X type 297 q 1.0
+atom 102 radius 0.09 name X type 150 q 1.0
+atom 32 radius 0.12 name X type 286 q 2.0
+atom 152 radius 0.08 name X type 325 q 1.0
+atom 31 radius 0.1 name X type 285 q 1.0
+atom 9,15,65 radius 0.07 name X type 35 q 1.0
+atom 74,101,114,183 radius 0.07 name X type 35 q 1.0
+atom 174 radius 0.1 name X type 334 q 1.0
+atom 6,30,39 radius 0.06 name X type 117 q 2.0
+atom 51,130 radius 0.08 name X type 294 q 1.0
+atom 20,75,78 radius 0.1 name X type 14 q 1.0
+atom 113 radius 0.1 name X type 14 q 1.0
+atom 25 radius 0.13 name X type 283 q 2.0
+atom 54,90 radius 0.09 name X type 53 q 1.0
+atom 95,126,170 radius 0.09 name X type 53 q 1.0
+atom 72,145 radius 0.11 name X type 302 q 2.0
+atom 13,49 radius 0.07 name X type 282 q 1.0
+atom 18,40,120,143 radius 0.1 name X type 32 q 1.0
+atom 167 radius 0.07 name X type 331 q 1.0
+atom 56 radius 0.11 name X type 51 q 2.0
+atom 71 radius 0.11 name X type 301 q 1.0
+atom 46 radius 0.06 name X type 291 q 1.0
+atom 177 radius 0.13 name X type 41 q 1.0
+atom 131 radius 0.07 name X type 59 q 2.0
+atom 14 radius 0.09 name X type 80 q 1.0
+atom 4 radius 0.16 name X type 280 q 2.0
+atom 3 radius 0.1 name X type 279 q 2.0
+atom 96 radius 0.08 name X type 310 q 1.0
+atom 69 radius 0.09 name X type 299 q 1.0
+atom 37,67,141,161 radius 0.08 name X type 20 q 1.0
+atom 127,137 radius 0.09 name X type 318 q 1.0
+atom 93,118,168 radius 0.05 name X type 141 q 2.0
+atom 2,19 radius 0.07 name X type 278 q 1.0
+atom 146 radius 0.05 name X type 28 q 1.0
+atom 87 radius 0.11 name X type 307 q 2.0
+atom 38,58 radius 0.08 name X type 287 q 1.0
+atom 116 radius 0.15 name X type 316 q 2.0
+atom 180 radius 0.07 name X type 336 q 1.0
+atom 60 radius 0.07 name X type 296 q 1.0
+atom 1,155 radius 0.09 name X type 16 q 1.0
+atom 109 radius 0.07 name X type 315 q 1.0
+atom 17,158 radius 0.1 name X type 74 q 2.0
+atom 8,55 radius 0.05 name X type 6 q 1.0
+atom 68,82,85,89,107,110,112,129 radius 0.05 name X type 6 q 1.0
+atom 133,149,151,165,172,175 radius 0.05 name X type 6 q 1.0
+atom 79 radius 0.15 name X type 304 q 2.0
+atom 104 radius 0.13 name X type 313 q 2.0
+atom 76 radius 0.13 name X type 303 q 1.0
+atom 50 radius 0.07 name X type 293 q 1.0
+atom 135 radius 0.06 name X type 322 q 2.0
+atom 100 radius 0.07 name X type 312 q 1.0
+atom 134 radius 0.1 name X type 321 q 1.0
+atom 91,97 radius 0.11 name X type 309 q 2.0
+atom 166 radius 0.12 name X type 330 q 1.0
+atom 164 radius 0.12 name X type 329 q 1.0
+atom 140 radius 0.09 name N type 1 q 2.0
+atom 70 radius 0.07 name X type 300 q 1.0
+atom 44,62 radius 0.09 name X type 290 q 1.0
+atom 26,73 radius 0.06 name X type 10 q 1.0
+atom 77,84,94,142,159 radius 0.06 name X type 10 q 1.0
+atom 88 radius 0.06 name X type 308 q 1.0
+atom 154 radius 0.14 name X type 327 q 2.0
+atom 22,105 radius 0.07 name X type 18 q 1.0
+atom 156 radius 0.07 name X type 18 q 1.0
+atom 7,16 radius 0.08 name X type 27 q 1.0
+atom 92 radius 0.08 name X type 27 q 1.0
+atom 86 radius 0.14 name X type 306 q 2.0
+atom 153 radius 0.09 name X type 326 q 1.0
+atom 178 radius 0.06 name X type 335 q 1.0
+atom 81 radius 0.13 name X type 305 q 1.0
+atom 52,148 radius 0.08 name X type 295 q 1.0
+atom 66 radius 0.09 name X type 25 q 2.0
+atom 11,34 radius 0.12 name X type 45 q 1.0
+atom 147 radius 0.14 name X type 324 q 2.0
+atom 5,35,138 radius 0.1 name X type 127 q 2.0
+atom 0,83 radius 0.13 name X type 64 q 2.0
+atom 117,179 radius 0.13 name X type 64 q 2.0
+atom 29,36 radius 0.12 name X type 284 q 2.0
+atom 108 radius 0.07 name X type 314 q 1.0
+atom 122 radius 0.11 name X type 54 q 1.0
+atom 173,181 radius 0.12 name X type 333 q 2.0
+bond 0:1
+bond 1:2
+bond 2:3
+bond 3:4
+bond 4:5
+bond 5:6
+bond 6:7
+bond 7:8
+bond 8:9
+bond 9:10
+bond 10:11
+bond 11:12
+bond 12:13
+bond 13:14
+bond 14:15
+bond 15:16
+bond 16:17
+bond 17:18
+bond 18:19
+bond 19:20
+bond 20:21
+bond 21:22
+bond 22:23
+bond 23:24
+bond 24:25
+bond 25:26
+bond 26:27
+bond 27:28
+bond 28:29
+bond 29:30
+bond 30:31
+bond 31:32
+bond 32:33
+bond 33:34
+bond 34:35
+bond 35:36
+bond 36:37
+bond 37:38
+bond 38:39
+bond 39:40
+bond 40:41
+bond 41:42
+bond 42:43
+bond 43:44
+bond 44:45
+bond 45:46
+bond 46:47
+bond 47:48
+bond 48:49
+bond 49:50
+bond 50:51
+bond 51:52
+bond 52:53
+bond 53:54
+bond 54:55
+bond 55:56
+bond 56:57
+bond 57:58
+bond 58:59
+bond 59:60
+bond 60:61
+bond 61:62
+bond 62:63
+bond 63:64
+bond 64:65
+bond 65:66
+bond 66:67
+bond 67:68
+bond 68:69
+bond 69:70
+bond 70:71
+bond 71:72
+bond 72:73
+bond 73:74
+bond 74:75
+bond 75:76
+bond 76:77
+bond 77:78
+bond 78:79
+bond 79:80
+bond 80:81
+bond 81:82
+bond 82:83
+bond 83:84
+bond 84:85
+bond 85:86
+bond 86:87
+bond 87:88
+bond 88:89
+bond 89:90
+bond 90:91
+bond 91:92
+bond 92:93
+bond 93:94
+bond 94:95
+bond 95:96
+bond 96:97
+bond 97:98
+bond 98:99
+bond 99:100
+bond 100:101
+bond 101:102
+bond 102:103
+bond 103:104
+bond 104:105
+bond 105:106
+bond 106:107
+bond 107:108
+bond 108:109
+bond 109:110
+bond 110:111
+bond 111:112
+bond 112:113
+bond 113:114
+bond 114:115
+bond 115:116
+bond 116:117
+bond 117:118
+bond 118:119
+bond 119:120
+bond 120:121
+bond 121:122
+bond 122:123
+bond 123:124
+bond 124:125
+bond 125:126
+bond 126:127
+bond 127:128
+bond 128:129
+bond 129:130
+bond 130:131
+bond 131:132
+bond 132:133
+bond 133:134
+bond 134:135
+bond 135:136
+bond 136:137
+bond 137:138
+bond 138:139
+bond 139:140
+bond 140:141
+bond 141:142
+bond 142:143
+bond 143:144
+bond 144:145
+bond 145:146
+bond 146:147
+bond 147:148
+bond 148:149
+bond 149:150
+bond 150:151
+bond 151:152
+bond 152:153
+bond 153:154
+bond 154:155
+bond 155:156
+bond 156:157
+bond 157:158
+bond 158:159
+bond 159:160
+bond 160:161
+bond 161:162
+bond 162:163
+bond 163:164
+bond 164:165
+bond 165:166
+bond 166:167
+bond 167:168
+bond 168:169
+bond 169:170
+bond 170:171
+bond 171:172
+bond 172:173
+bond 173:174
+bond 174:175
+bond 175:176
+bond 176:177
+bond 177:178
+bond 178:179
+bond 179:180
+bond 180:181
+bond 181:182
+bond 182:183
+bond 183:184
+bond 184:185
+bond 185:186
+bond 186:187
+bond 187:188
+bond 188:189
+bond 189:190
+bond 190:191
+bond 191:192
+bond 192:193
+bond 193:194
+bond 194:195
+bond 195:196
+bond 196:197
+bond 197:198
+bond 198:199
+bond 199:200
+bond 200:201
+bond 201:202
+bond 202:203
+bond 203:204
+bond 204:205
+bond 205:206
+bond 206:207
+bond 207:208
+bond 208:209
+bond 209:210
+bond 210:211
+bond 211:212
+bond 212:213
+bond 213:214
+bond 214:215
+bond 215:216
+bond 216:217
+bond 217:218
+bond 218:219
+bond 219:220
+bond 220:221
+bond 221:222
+bond 222:223
+bond 223:224
+bond 224:225
+bond 225:226
+bond 226:227
+bond 227:228
+bond 228:229
+bond 229:230
+bond 230:231
+bond 231:232
+bond 232:233
+bond 233:234
+bond 234:235
+bond 235:236
+bond 236:237
+bond 237:238
+bond 238:239
+bond 239:240
+bond 240:241
+bond 241:242
+bond 242:243
+bond 243:244
+bond 244:245
+bond 245:246
+bond 246:247
+bond 247:248
+bond 248:249
+bond 249:250
+bond 250:251
+bond 251:252
+bond 252:253
+bond 253:254
+bond 254:255
+bond 255:256
+bond 256:257
+bond 257:258
+bond 258:259
+bond 259:260
+bond 260:261
+bond 261:262
+bond 262:263
+bond 263:264
+bond 264:265
+bond 265:266
+bond 266:267
+bond 267:268
+bond 268:269
+bond 269:270
+bond 270:271
+bond 271:272
+bond 272:273
+bond 273:274
+bond 274:275
+bond 275:276
+bond 276:277
+bond 277:278
+bond 278:279
+bond 279:280
+bond 280:281
+bond 281:282
+bond 282:283
+bond 283:284
+bond 284:285
+bond 285:286
+bond 286:287
+bond 287:288
+bond 288:289
+bond 289:290
+bond 290:291
+bond 291:292
+bond 292:293
+bond 293:294
+bond 294:295
+bond 295:296
+bond 296:297
+bond 297:298
+bond 298:299
+bond 299:300
+bond 300:301
+bond 301:302
+bond 302:303
+bond 303:304
+bond 304:305
+bond 305:306
+bond 306:307
+bond 307:308
+bond 308:309
+bond 309:310
+bond 310:311
+bond 311:312
+bond 312:313
+bond 313:314
+bond 314:315
+bond 315:316
+bond 316:317
+bond 317:318
+bond 318:319
+bond 319:320
+bond 320:321
+bond 321:322
+bond 322:323
+bond 323:324
+bond 324:325
+bond 325:326
+bond 326:327
+bond 327:328
+bond 328:329
+bond 329:330
+bond 330:331
+bond 331:332
+bond 332:333
+bond 333:334
+bond 334:335
+bond 335:336
+bond 336:337
+bond 337:338
+bond 338:339
+bond 339:340
+bond 340:341
+bond 341:342
+bond 342:343
+bond 343:344
+bond 344:345
+bond 345:346
+bond 346:347
+bond 347:348
+bond 348:349
+bond 349:350
+bond 350:351
+bond 351:352
+bond 352:353
+bond 353:354
+bond 354:355
+bond 355:356
+bond 356:357
+bond 357:358
+bond 358:359
+bond 359:360
+bond 360:361
+bond 361:362
+bond 362:363
+bond 363:364
+bond 364:365
+bond 365:366
+bond 366:367
+bond 367:368
+bond 368:369
+bond 369:370
+bond 370:371
+bond 371:372
+bond 372:373
+bond 373:374
+bond 374:375
+bond 375:376
+bond 376:377
+bond 377:378
+bond 378:379
+bond 379:380
+bond 380:381
+bond 381:382
+bond 382:383
+bond 383:384
+bond 384:385
+bond 385:386
+bond 386:387
+bond 387:388
+bond 388:389
+bond 389:390
+bond 390:391
+bond 391:392
+bond 392:393
+bond 393:394
+bond 394:395
+bond 395:396
+bond 396:397
+bond 397:398
+bond 398:399
+bond 399:400
+bond 400:401
+bond 401:402
+bond 402:403
+bond 403:404
+bond 404:405
+bond 405:406
+bond 406:407
+bond 407:408
+bond 408:409
+bond 409:410
+bond 410:411
+bond 411:412
+bond 412:413
+bond 413:414
+bond 414:415
+bond 415:416
+bond 416:417
+bond 417:418
+bond 418:419
+bond 419:420
+bond 420:421
+bond 421:422
+bond 422:423
+bond 423:424
+bond 424:425
+bond 425:426
+bond 426:427
+bond 427:428
+bond 428:429
+bond 429:430
+bond 430:431
+bond 431:432
+bond 432:433
+bond 433:434
+bond 434:435
+bond 435:436
+bond 436:437
+bond 437:438
+bond 438:439
+bond 439:440
+bond 441:442
+bond 442:443
+bond 443:444
+bond 444:445
+bond 445:446
+bond 446:447
+bond 447:448
+bond 448:449
+bond 449:450
+bond 450:451
+bond 451:452
+bond 452:453
+bond 453:454
+bond 454:455
+bond 455:456
+bond 456:457
+bond 457:458
+bond 458:459
+bond 459:460
+bond 460:461
+bond 461:462
+bond 462:463
+bond 463:464
+bond 464:465
+bond 465:466
+bond 466:467
+bond 467:468
+bond 468:469
+bond 469:470
+bond 470:471
+bond 471:472
+bond 472:473
+bond 473:474
+bond 474:475
+bond 475:476
+bond 476:477
+bond 477:478
+bond 478:479
+bond 479:480
+bond 480:481
+bond 481:482
+bond 482:483
+bond 483:484
+bond 484:485
+bond 485:486
+bond 486:487
+bond 487:488
+bond 488:489
+bond 489:490
+bond 490:491
+bond 491:492
+bond 492:493
+bond 493:494
+bond 494:495
+bond 495:496
+bond 496:497
+bond 497:498
+bond 498:499
+bond 499:500
+bond 500:501
+bond 501:502
+bond 502:503
+bond 503:504
+bond 504:505
+bond 505:506
+bond 506:507
+bond 507:508
+bond 508:509
+bond 509:510
+bond 510:511
+bond 511:512
+bond 512:513
+bond 513:514
+bond 514:515
+bond 515:516
+bond 516:517
+bond 517:518
+bond 518:519
+bond 519:520
+bond 520:521
+bond 521:522
+bond 522:523
+bond 523:524
+bond 524:525
+bond 525:526
+bond 526:527
+bond 527:528
+bond 528:529
+bond 529:530
+bond 530:531
+bond 531:532
+bond 532:533
+bond 533:534
+bond 534:535
+bond 535:536
+bond 536:537
+bond 537:538
+bond 538:539
+bond 539:540
+bond 540:541
+bond 541:542
+bond 542:543
+bond 543:544
+bond 544:545
+bond 545:546
+bond 546:547
+bond 547:548
+bond 548:549
+bond 549:550
+bond 550:551
+bond 551:552
+bond 552:553
+bond 553:554
+bond 554:555
+bond 555:556
+bond 556:557
+bond 557:558
+bond 558:559
+bond 559:560
+bond 560:561
+bond 561:562
+bond 562:563
+bond 563:564
+bond 564:565
+bond 565:566
+bond 566:567
+bond 567:568
+bond 568:569
+bond 569:570
+bond 570:571
+bond 571:572
+bond 572:573
+bond 573:574
+bond 574:575
+bond 575:576
+bond 576:577
+bond 577:578
+bond 578:579
+bond 579:580
+bond 580:581
+bond 581:582
+bond 582:583
+bond 583:584
+bond 584:585
+bond 585:586
+bond 586:587
+bond 587:588
+bond 588:589
+bond 589:590
+bond 590:591
+bond 591:592
+bond 592:593
+bond 593:594
+bond 594:595
+bond 595:596
+bond 596:597
+bond 597:598
+bond 598:599
+bond 599:600
+bond 600:601
+bond 601:602
+bond 602:603
+bond 603:604
+bond 604:605
+bond 605:606
+bond 606:607
+bond 607:608
+bond 608:609
+bond 609:610
+bond 610:611
+bond 611:612
+bond 612:613
+bond 613:614
+bond 614:615
+bond 615:616
+bond 616:617
+bond 617:618
+bond 618:619
+bond 619:620
+bond 620:621
+bond 621:622
+bond 622:623
+bond 623:624
+bond 624:625
+bond 625:626
+bond 626:627
+bond 627:628
+bond 628:629
+bond 629:630
+bond 630:631
+bond 631:632
+bond 632:633
+bond 633:634
+bond 634:635
+bond 635:636
+bond 636:637
+bond 637:638
+bond 638:639
+bond 639:640
+bond 640:641
+bond 641:642
+bond 642:643
+bond 643:644
+bond 644:645
+bond 645:646
+bond 646:647
+bond 647:648
+bond 648:649
+bond 649:650
+bond 650:651
+bond 651:652
+bond 652:653
+bond 653:654
+bond 654:655
+bond 655:656
+bond 656:657
+bond 657:658
+bond 658:659
+bond 659:660
+bond 660:661
+bond 661:662
+bond 662:663
+bond 663:664
+bond 664:665
+bond 665:666
+bond 666:667
+bond 667:668
+bond 668:669
+bond 669:670
+bond 670:671
+bond 671:672
+bond 672:673
+bond 673:674
+bond 674:675
+bond 675:676
+bond 676:677
+bond 677:678
+bond 678:679
+bond 679:680
+bond 680:681
+bond 681:682
+bond 682:683
+bond 683:684
+bond 684:685
+bond 685:686
+bond 686:687
+bond 687:688
+bond 688:689
+bond 689:690
+bond 690:691
+bond 691:692
+bond 692:693
+bond 693:694
+bond 694:695
+bond 695:696
+bond 696:697
+bond 697:698
+bond 698:699
+bond 699:700
+bond 700:701
+bond 701:702
+bond 702:703
+bond 703:704
+bond 704:705
+bond 705:706
+bond 706:707
+bond 707:708
+bond 708:709
+bond 709:710
+bond 710:711
+bond 711:712
+bond 712:713
+bond 713:714
+bond 714:715
+bond 715:716
+bond 716:717
+bond 717:718
+bond 718:719
+bond 719:720
+bond 720:721
+bond 721:722
+bond 722:723
+bond 723:724
+bond 724:725
+bond 725:726
+bond 726:727
+bond 727:728
+bond 728:729
+bond 729:730
+bond 730:731
+bond 731:732
+bond 732:733
+bond 733:734
+bond 734:735
+bond 735:736
+bond 736:737
+bond 737:738
+bond 738:739
+bond 739:740
+bond 740:741
+bond 741:742
+bond 742:743
+bond 743:744
+bond 744:745
+bond 745:746
+bond 746:747
+bond 747:748
+bond 748:749
+bond 749:750
+bond 750:751
+bond 751:752
+bond 752:753
+bond 753:754
+bond 754:755
+bond 755:756
+bond 756:757
+bond 757:758
+bond 758:759
+bond 759:760
+bond 760:761
+bond 761:762
+bond 762:763
+bond 763:764
+bond 764:765
+bond 765:766
+bond 766:767
+bond 767:768
+bond 768:769
+bond 769:770
+bond 770:771
+bond 771:772
+bond 772:773
+bond 773:774
+bond 774:775
+bond 775:776
+bond 776:777
+bond 777:778
+bond 778:779
+bond 779:780
+bond 780:781
+bond 781:782
+bond 782:783
+bond 783:784
+bond 784:785
+bond 785:786
+bond 786:787
+bond 787:788
+bond 788:789
+bond 789:790
+bond 790:791
+bond 791:792
+bond 792:793
+bond 793:794
+bond 794:795
+bond 795:796
+bond 796:797
+bond 797:798
+bond 798:799
+bond 799:800
+bond 800:801
+bond 801:802
+bond 802:803
+bond 803:804
+bond 804:805
+bond 805:806
+bond 806:807
+bond 807:808
+bond 808:809
+bond 809:810
+bond 810:811
+bond 811:812
+bond 812:813
+bond 813:814
+bond 814:815
+bond 815:816
+bond 816:817
+bond 817:818
+bond 818:819
+bond 819:820
+bond 820:821
+bond 821:822
+bond 822:823
+bond 823:824
+bond 824:825
+bond 825:826
+bond 826:827
+bond 827:828
+bond 828:829
+bond 829:830
+bond 830:831
+bond 831:832
+bond 832:833
+bond 833:834
+bond 834:835
+bond 835:836
+bond 836:837
+bond 837:838
+bond 838:839
+bond 839:840
+bond 840:841
+bond 841:842
+bond 842:843
+bond 843:844
+bond 844:845
+bond 845:846
+bond 846:847
+bond 847:848
+bond 848:849
+bond 849:850
+bond 850:851
+bond 851:852
+bond 852:853
+bond 853:854
+bond 854:855
+bond 855:856
+bond 856:857
+bond 857:858
+bond 858:859
+bond 859:860
+bond 860:861
+bond 861:862
+bond 862:863
+bond 863:864
+bond 864:865
+bond 865:866
+bond 866:867
+bond 867:868
+bond 868:869
+bond 869:870
+bond 870:871
+bond 871:872
+bond 872:873
+bond 873:874
+bond 874:875
+bond 875:876
+bond 876:877
+bond 877:878
+bond 878:879
+bond 879:880
+bond 880:881
+bond 881:882
+bond 882:883
+bond 883:884
+bond 884:885
+bond 885:886
+bond 886:887
+bond 887:888
+bond 888:889
+bond 889:890
+bond 890:891
+bond 891:892
+bond 892:893
+bond 893:894
+bond 894:895
+bond 895:896
+bond 896:897
+bond 897:898
+bond 898:899
+bond 899:900
+bond 900:901
+bond 901:902
+bond 902:903
+bond 903:904
+bond 904:905
+bond 905:906
+bond 906:907
+bond 907:908
+bond 908:909
+bond 909:910
+bond 910:911
+bond 911:912
+bond 912:913
+bond 913:914
+bond 914:915
+bond 915:916
+bond 916:917
+bond 917:918
+bond 918:919
+bond 919:920
+bond 920:921
+bond 921:922
+bond 922:923
+bond 923:924
+bond 924:925
+bond 925:926
+bond 926:927
+bond 927:928
+bond 928:929
+bond 929:930
+bond 930:931
+bond 931:932
+bond 932:933
+bond 933:934
+bond 934:935
+bond 935:936
+bond 936:937
+bond 937:938
+bond 938:939
+bond 939:940
+bond 940:941
+bond 941:942
+bond 942:943
+bond 943:944
+bond 944:945
+bond 945:946
+bond 946:947
+bond 947:948
+bond 948:949
+bond 949:950
+bond 950:951
+bond 951:952
+bond 952:953
+bond 953:954
+bond 954:955
+bond 955:956
+bond 956:957
+bond 957:958
+bond 958:959
+bond 959:960
+bond 960:961
+bond 961:962
+bond 962:963
+bond 963:964
+bond 964:965
+bond 965:966
+bond 966:967
+bond 967:968
+bond 968:969
+bond 969:970
+bond 970:971
+bond 972:973
+bond 973:974
+bond 974:975
+bond 975:976
+bond 976:977
+bond 977:978
+bond 978:979
+bond 979:980
+bond 980:981
+bond 981:982
+bond 982:983
+bond 983:984
+bond 984:985
+bond 985:986
+bond 986:987
+bond 987:988
+bond 988:989
+bond 989:990
+bond 990:991
+bond 991:992
+bond 993:994
+bond 994:995
+bond 995:996
+bond 996:997
+bond 997:998
+bond 998:999
+bond 999:1000
+bond 1000:1001
+bond 1001:1002
+bond 1002:1003
+bond 1003:1004
+bond 1004:1005
+bond 1005:1006
+bond 1006:1007
+bond 1007:1008
+bond 1008:1009
+bond 1009:1010
+bond 1010:1011
+bond 1011:1012
+bond 1012:1013
+bond 1013:1014
+bond 1014:1015
+bond 1015:1016
+bond 1016:1017
+bond 1017:1018
+bond 1018:1019
+bond 1019:1020
+bond 1020:1021
+bond 1021:1022
+bond 1022:1023
+bond 1023:1024
+bond 1024:1025
+bond 1025:1026
+bond 1026:1027
+bond 1027:1028
+bond 1028:1029
+bond 1029:1030
+bond 1030:1031
+bond 1031:1032
+bond 1032:1033
+bond 1033:1034
+bond 1034:1035
+bond 1035:1036
+bond 1036:1037
+bond 1037:1038
+bond 1038:1039
+bond 1039:1040
+bond 1040:1041
+bond 1041:1042
+bond 1042:1043
+bond 1043:1044
+bond 1044:1045
+bond 1045:1046
+bond 1046:1047
+bond 1047:1048
+bond 1048:1049
+bond 1049:1050
+bond 1050:1051
+bond 1051:1052
+bond 1052:1053
+bond 1053:1054
+bond 1054:1055
+bond 1055:1056
+bond 1056:1057
+bond 1057:1058
+bond 1058:1059
+bond 1059:1060
+bond 1060:1061
+bond 1061:1062
+bond 1062:1063
+bond 1063:1064
+bond 1064:1065
+bond 1065:1066
+bond 1066:1067
+bond 1067:1068
+bond 1068:1069
+bond 1069:1070
+bond 1070:1071
+bond 1071:1072
+bond 1072:1073
+bond 1073:1074
+bond 1074:1075
+bond 1075:1076
+bond 1076:1077
+bond 1077:1078
+bond 1078:1079
+bond 1079:1080
+bond 1080:1081
+bond 1081:1082
+bond 1082:1083
+bond 1083:1084
+bond 1084:1085
+bond 1085:1086
+bond 1086:1087
+bond 1087:1088
+bond 1088:1089
+bond 1089:1090
+bond 1090:1091
+bond 1091:1092
+bond 1092:1093
+bond 1093:1094
+bond 1094:1095
+bond 1095:1096
+bond 1096:1097
+bond 1097:1098
+bond 1098:1099
+bond 1099:1100
+bond 1100:1101
+bond 1101:1102
+bond 1102:1103
+bond 1103:1104
+bond 1104:1105
+bond 1105:1106
+bond 1106:1107
+bond 1107:1108
+bond 1108:1109
+bond 1109:1110
+bond 1110:1111
+bond 1111:1112
+bond 1112:1113
+bond 1113:1114
+bond 1114:1115
+bond 1115:1116
+bond 1116:1117
+bond 1117:1118
+bond 1118:1119
+bond 1119:1120
+bond 1120:1121
+bond 1121:1122
+bond 1122:1123
+bond 1123:1124
+bond 1124:1125
+bond 1125:1126
+bond 1126:1127
+bond 1127:1128
+bond 1128:1129
+bond 1129:1130
+bond 1130:1131
+bond 1131:1132
+bond 1132:1133
+bond 1133:1134
+bond 1134:1135
+bond 1135:1136
+bond 1136:1137
+bond 1137:1138
+bond 1138:1139
+bond 1139:1140
+bond 1140:1141
+bond 1141:1142
+bond 1142:1143
+bond 1143:1144
+bond 1144:1145
+bond 1145:1146
+bond 1146:1147
+bond 1147:1148
+bond 1148:1149
+bond 1149:1150
+bond 1150:1151
+bond 1151:1152
+bond 1152:1153
+bond 1153:1154
+bond 1154:1155
+bond 1155:1156
+bond 1156:1157
+bond 1157:1158
+bond 1158:1159
+bond 1159:1160
+bond 1160:1161
+bond 1161:1162
+bond 1162:1163
+bond 1163:1164
+bond 1164:1165
+bond 1165:1166
+bond 1166:1167
+bond 1167:1168
+bond 1168:1169
+bond 1169:1170
+bond 1170:1171
+bond 1171:1172
+bond 1172:1173
+bond 1173:1174
+bond 1174:1175
+bond 1175:1176
+bond 1176:1177
+bond 1177:1178
+
+timestep ordered
+50.7502 48.5165 49.2016
+50.6728 48.5807 49.3875
+50.6237 48.5118 49.5041
+50.8264 48.3839 49.532
+51.0507 48.6393 49.4054
+50.9484 48.5666 49.2209
+50.8626 48.7339 49.1071
+50.9726 48.7384 48.9926
+50.8157 48.7945 48.8962
+50.8022 48.8552 48.9804
+50.8105 48.6345 49.0154
+50.6305 48.7149 49.1215
+50.5344 48.4473 49.279
+50.4937 48.6997 49.2178
+50.5738 48.8267 49.3102
+50.5531 48.9394 49.1343
+50.5278 49.0477 49.2189
+50.4375 48.9544 49.3225
+50.3574 49.1538 49.5855
+50.3861 48.9571 49.5389
+50.5818 49.0574 49.5923
+50.6367 48.8234 49.5873
+50.8471 48.7658 49.3797
+50.8995 48.8667 49.5287
+51.2032 48.8886 49.4707
+51.3569 48.9783 49.3012
+51.173 49.044 49.3796
+51.3307 49.0576 49.5608
+51.5253 49.1637 49.372
+51.6201 49.2205 49.6032
+51.5052 49.2824 49.4936
+51.5163 49.4191 49.6226
+51.4063 49.6396 49.8109
+51.35 49.5112 49.5925
+51.1613 49.2884 49.8519
+50.9888 49.3826 50.1028
+50.8987 49.1266 50.0491
+50.6997 49.1727 49.893
+50.6673 49.3428 49.8528
+50.5912 49.2059 49.6975
+50.7084 49.1134 49.7424
+50.8162 49.1516 49.6301
+50.8385 49.4022 49.6506
+51.0657 49.4242 49.5865
+50.8948 49.5064 49.4919
+50.9968 49.6105 49.4627
+50.918 49.6628 49.5564
+50.8456 49.8001 49.6107
+50.8796 49.8926 49.4197
+51.0371 49.7808 49.4033
+51.0496 49.9082 49.5029
+51.2474 50.0262 49.5601
+51.4423 50.0688 49.6033
+51.2845 50.1991 49.593
+51.1201 50.1219 49.65
+51.0923 50.1963 49.481
+51.0763 50.2879 49.3187
+51.3488 50.5523 49.4152
+51.5808 50.5319 49.2415
+51.6119 50.3512 49.1062
+51.5029 50.5261 49.0279
+51.4448 50.3962 48.9089
+51.3524 50.4775 49.0051
+51.2542 50.6432 49.032
+51.2838 50.6497 48.8143
+51.1012 50.7197 49.0005
+50.9777 50.7465 49.0593
+50.9865 50.6731 49.2007
+50.8403 50.7652 49.2116
+50.8733 50.9424 49.1391
+51.0153 50.8357 49.1726
+51.1672 50.7769 49.2185
+50.92 50.5673 49.083
+51.0107 50.5355 48.9605
+51.0225 50.4968 48.8444
+50.8781 50.4796 48.7534
+50.6726 50.6529 48.9185
+50.6609 50.9356 48.8405
+50.6431 51.077 48.8885
+50.4146 51.4362 48.9294
+50.2706 51.1006 48.7732
+50.0824 51.023 49.0552
+50.0967 51.0929 48.8271
+50.1337 51.2197 48.6246
+50.2785 51.301 48.7214
+50.3802 51.3479 48.7639
+50.5592 51.2511 48.7772
+50.4248 50.9204 48.7324
+50.4349 50.8771 48.8775
+50.3378 50.9247 48.8838
+50.5127 50.7741 48.8226
+50.5322 50.5662 48.6118
+50.3332 50.4837 48.6227
+50.4054 50.6204 48.7952
+50.3675 50.597 48.9095
+50.2759 50.4975 48.8169
+50.167 50.414 48.6948
+49.9198 50.2186 48.5992
+49.698 50.4917 48.5715
+49.6213 50.6864 48.5987
+49.7291 50.703 48.4641
+49.8107 50.5086 48.4126
+49.7802 50.3508 48.3376
+49.792 50.5919 48.2314
+50.0306 50.5278 48.2315
+50.1984 50.3667 48.2751
+50.1718 50.1762 48.3321
+50.2552 50.1543 48.4294
+50.333 50.2411 48.4387
+50.3545 50.3917 48.4993
+50.3893 50.4993 48.4318
+50.4737 50.5178 48.293
+50.6607 50.4385 48.3113
+50.7333 50.346 48.4697
+51.0136 50.3107 48.4316
+51.0982 50.1738 48.5387
+51.2057 50.397 48.8869
+51.3715 50.1498 48.7718
+51.3629 50.0747 49.076
+51.246 50.2198 49.1641
+51.4264 50.3731 49.1756
+51.554 50.2988 48.9414
+51.428 50.2274 49.0523
+51.3594 50.1177 48.9576
+51.262 50.0203 49.1444
+50.9654 49.9304 49.218
+50.6655 50.0612 49.125
+50.7625 49.9337 49.271
+50.6267 50.0824 49.3595
+50.7288 50.19 49.4899
+50.7853 50.2482 49.6539
+50.6394 50.3135 49.6901
+50.8319 50.3889 49.5348
+50.8926 50.5113 49.5182
+51.0344 50.4697 49.4982
+50.8061 50.545 49.4564
+50.6673 50.4984 49.3398
+50.6293 50.3976 49.4893
+50.4234 50.4645 49.4289
+50.2093 50.4803 49.5164
+50.0982 50.3148 49.4588
+50.091 50.525 49.3672
+49.9296 50.5757 49.3662
+49.9948 50.7012 49.2479
+49.9762 50.7684 49.1152
+49.9459 50.8508 48.9663
+49.9066 50.956 48.8693
+49.7745 51.0695 48.9758
+49.9259 51.0836 48.8375
+49.9967 51.1984 48.8508
+50.0768 51.2367 48.9094
+50.0738 51.1169 48.9286
+50.1166 51.2291 49.0521
+50.0524 51.3577 48.9791
+50.0392 51.6232 49.1364
+50.2517 51.579 49.1592
+50.4355 51.6138 49.3807
+50.3873 51.7094 49.583
+50.5429 51.7648 49.6764
+50.5275 51.609 49.5326
+50.5869 51.4697 49.5368
+50.4103 51.3748 49.6925
+50.5036 51.5819 49.8652
+50.7026 51.689 49.8896
+50.7877 51.4623 49.94
+50.8501 51.2104 49.9479
+50.6836 51.1444 49.9947
+50.7957 51.0851 50.1707
+50.8569 51.2004 50.137
+50.8822 51.1295 50.0288
+50.8915 51.2557 49.8265
+51.1364 51.1579 49.8127
+51.042 51.2144 49.6124
+51.2819 51.3032 49.6455
+51.3043 51.0773 49.8361
+51.4539 51.1206 49.953
+51.414 50.9146 50.0185
+51.2086 50.6925 50.0468
+51.144 50.4512 50.1095
+51.3366 50.2452 50.1962
+51.2004 50.1246 50.3258
+51.2129 50.0189 50.1929
+51.2144 50.0113 49.9294
+51.0771 49.8211 49.9163
