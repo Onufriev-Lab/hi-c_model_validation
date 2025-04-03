@@ -21,7 +21,7 @@ python3 #3_Sum4Y_X_unique_4_4_4.py
 ```
 python3 Rs_values_mol2.py
 ```
-Conformation files from Ref [1] in [here] https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20292-z/MediaObjects/41467_2020_20292_MOESM4_ESM.zip)
+Conformation files from Ref [1] is [here] https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20292-z/MediaObjects/41467_2020_20292_MOESM4_ESM.zip)
 
 
 2. To compute Rs values from trajectories in VTF format,
