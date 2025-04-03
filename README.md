@@ -1,4 +1,4 @@
-## Quantifying Conformational Diversity of 3D Genome Organization in Fruit Fly
+## Quantifying Conformational Variability of 3D Genome Organization in Fruit Fly
 ![Slinkies](figures/slinkies.png)
 
 ## MC-TAD Algorithm to refine the representation of the polymer chain from the lower resolution to a higher one
