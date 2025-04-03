@@ -23,16 +23,25 @@ python3 Rs_Traj_mol2.py
 ```
 2. To compute Rs values from trajectories in VTF format,
 
+Compile the C++ code:
+```
+g++ Rs_values_vtf.cpp -std=c++11 -oRs_plots
+````
+2. Run the C++ code:
+
+   ```
+ ./Rs_values_vtf.cpp <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> </snapshot_number> > <output_file>
+   ```
     
 The inputs of the C++ code include the trajectory file, the LamSites text file, and the specific time frame obtained from the selection algorithm. The algorithm is based on a defined "tau" as the maximum age of the Drosophila nuclei. We take a trajectory (one by one);
 to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min. The trajectory file in Ref[2] include 400,000 snapshots.
 The outputs are the "Rs" values corresponding to each specific genomic distance.
 
-3. To compute and visualize Rs and CD valuse across the genome before incorporate the up-conversion, run
+3. To compute and visualize Rs and CV valuse across the genome before incorporate the up-conversion, run
 ```
 python3 Relative_Rs_before_UpConversion.py
 ```
-4. To compute and visualize Relative Rs and relative CD values across the genome after both up-conversion, run
+4. To compute and visualize Relative Rs and relative CV values across the genome after both up-conversion, run
 ```
 python3 Relative_Rs.py
 ```
