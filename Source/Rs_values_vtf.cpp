@@ -136,7 +136,7 @@ void TTMatrix::printMatrix2()
         //std::cout << ", " << genomicDis[i]/((gsize-i)*(endFrame - startFrame + 1)); //Print out element in each row
         //std::cout <<  i*118.02 << " " <<  genomicDis[i]/((gsize-i)*(endFrame - startFrame + 1))<< "\n";
        // std::cout <<  i*118.02 << " " <<  genomicDis[i]/((gsize-i-1)*(endFrame - startFrame + 1))<< "\n";
-          std::cout << ", " << genomicDis[i]/((gsize-i)*(endFrame - startFrame));
+          std::cout << ", " << genomicDis[i]/((gsize-i)*(endFrame - startFrame +1));
     }
 }
 
