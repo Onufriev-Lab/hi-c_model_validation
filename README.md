@@ -19,7 +19,7 @@ python3 #3_Sum4Y_X_unique_4_4_4.py
 ## To Compute Relative Conformational Diversity 
 1. To compute Rs values from trajectories in mol2 format, run
 ```
-python3 Rs_Traj_mol2.py
+python3 Rs_values_mol2.py
 ```
 2. To compute Rs values from trajectories in VTF format,
 
