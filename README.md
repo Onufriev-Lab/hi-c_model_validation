@@ -30,7 +30,7 @@ To compute Rs values from trajectories,
 
 Compile the C++ code:
 ```
-g++ Rs_values_vtf.cpp -std=c++11 -oRs_plots
+g++ Rs_values_vtf.cpp -std=c++11 -oRs_Values_vtf
 ````
 Run the C++ code:
 
