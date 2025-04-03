@@ -132,11 +132,11 @@ void TTMatrix::printMatrix2()
 {
     int gsize = 184;//TadCount;//change it for X chomosome
     //for (size_t i = 1; i != gsize; ++i) {
-      for (size_t i = 0; i != gsize ; ++i) {
+      for (size_t i = 1; i != gsize ; ++i) {
         //std::cout << ", " << genomicDis[i]/((gsize-i)*(endFrame - startFrame + 1)); //Print out element in each row
         //std::cout <<  i*118.02 << " " <<  genomicDis[i]/((gsize-i)*(endFrame - startFrame + 1))<< "\n";
        // std::cout <<  i*118.02 << " " <<  genomicDis[i]/((gsize-i-1)*(endFrame - startFrame + 1))<< "\n";
-          std::cout << ", " << genomicDis[i]/((gsize-i)*(endFrame - startFrame +1));
+          std::cout << genomicDis[i]/((gsize-i)*(endFrame - startFrame +1)) << " \n";
     }
 }
 
