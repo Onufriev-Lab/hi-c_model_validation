@@ -33,7 +33,7 @@ g++ Rs_values_vtf.cpp -std=c++11 -oRs_plots
 Run the C++ code:
 
 ```
-./Rs_values_vtf.cpp <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> </snapshot_number> > <output_file>
+./Rs_values_vtf <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> </snapshot_number> > <output_file>
 ```
     
 The inputs of the C++ code include the trajectory file, the LamSites text file, and the specific time frame obtained from the selection algorithm. We take a trajectory (one by one);
