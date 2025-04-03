@@ -33,7 +33,7 @@ Run the C++ code:
 ./Rs_values_vtf.cpp <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> </snapshot_number> > <output_file>
 ```
     
-The inputs of the C++ code include the trajectory file, the LamSites text file, and the specific time frame obtained from the selection algorithm. The algorithm is based on a defined "tau" as the maximum age of the Drosophila nuclei. We take a trajectory (one by one);
+The inputs of the C++ code include the trajectory file, the LamSites text file, and the specific time frame obtained from the selection algorithm. We take a trajectory (one by one);
 to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min. The trajectory file in Ref[2] include 400,000 snapshots.
 The outputs are the "Rs" values corresponding to each specific genomic distance.
 
