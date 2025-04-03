@@ -1,9 +1,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Rs value generator for chr X						//
 // Use this command to compile:
-// g++ Rs_plots.cpp -std=c++11 -oRs_plots
+// g++ Rs_values_vtf.cpp -std=c++11 -oRs_values_vtf
 // To run on "simulation.vtf", "rad_list" and tolerance 0.2 use:  		//
-// ./Rs_plots /path/to/simulation.vtf /path/to/rad_list  tolerance   skip#frames	//
+// ./Rs_values_vtf /path/to/simulation.vtf /path/to/rad_list  tolerance   skip#frames	//
 // Output is dumped to stdout, pipe into the file of your choice.		//
 //////////////////////////////////////////////////////////////////////////////////
 
