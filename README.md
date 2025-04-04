@@ -37,7 +37,7 @@ Run the C++ code:
 ```
 ./Rs_values_vtf <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> <snapshot_number> > <output_file>
 ```
- Conformation files from Ref [2] is [here] [https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20292-z/MediaObjects/41467_2020_20292_MOESM4_ESM.zip)](http://people.cs.vt.edu/%7Eonufriev/CODES/DROSOPHILA_NUCLEUS.zip)   
+ Conformation files from Ref [2] is [here] (http://people.cs.vt.edu/%7Eonufriev/CODES/DROSOPHILA_NUCLEUS.zip)   
  
 The inputs of the C++ code include the trajectory file, the LamSites text file, and the specific time frame obtained from the selection algorithm. We take a trajectory (one by one);
 to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min. The trajectory file in Ref[2] include 400,000 snapshots.
