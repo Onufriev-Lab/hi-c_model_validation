@@ -26,7 +26,7 @@ Run the C++ code:
  
 The inputs of the C++ code include the trajectory file, the LamSites txt file, and the specific time frame obtained from the selection algorithm. We take a trajectory (one by one);
 to each trajectory, we randomly choose a time-slice (a piece). The trajectory file in Ref[2] include 400,000 snapshots.
-The outputs are the "$\langle R_s \rangle$" values corresponding to all genomic distance.
+The outputs are the $\langle R_s \rangle$ values corresponding to all genomic distance.
 
 ## To Compute Relative $\langle R_s \rangle$, CV and Relative CV 
 To compute CV valuse across the genome before incorporate the up-conversion, run
