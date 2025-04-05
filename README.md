@@ -1,7 +1,7 @@
 ## Quantifying Conformational Variability of 3D Genome Organization in Fruit Fly
 ![Slinkies](figures/slinkies.png)
 
-## To Compute Rs 
+## To Compute $\langle R_s \rangle$ 
 
 ### Conformations in mol2 format:
 To compute Rs values from trajectories, run
