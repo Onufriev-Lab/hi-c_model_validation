@@ -4,14 +4,14 @@
 ## To Compute $\langle R_s \rangle$ 
 
 ### Conformations in mol2 format:
-To compute Rs values from trajectories, run
+To compute $\langle R_s \rangle$ values from trajectories, run
 ```
 python3 Rs_values_mol2.py
 ```
 Conformation files from Ref [1] is [here] https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20292-z/MediaObjects/41467_2020_20292_MOESM4_ESM.zip)
 
 ### Conformations in VTF format:
-To compute Rs values from trajectories, 
+To compute $\langle R_s \rangle$ values from trajectories, 
 
 Compile the C++ code:
 ```
@@ -28,12 +28,12 @@ The inputs of the C++ code include the trajectory file, the LamSites text file, 
 to each trajectory, we randomly choose a time-slice (a piece) within a tau. For example, the command above assume tau= 1min. The trajectory file in Ref[2] include 400,000 snapshots.
 The outputs are the "Rs" values corresponding to each specific genomic distance.
 
-## To Compute Relative Rs, CV and Relative CV 
+## To Compute Relative $\langle R_s \rangle$, CV and Relative CV 
 To compute CV valuse across the genome before incorporate the up-conversion, run
 ```
 python3 Rs_CV_before_UpConversion.py
 ```
-To compute Relative Rs and Relative CV values across the genome after up-conversion, run
+To compute Relative $\langle R_s \rangle$ and Relative CV values across the genome after up-conversion, run
 ```
 python3 Relative_Rs_CV.py
 ```
