@@ -24,7 +24,7 @@ Run the C++ code:
 ```
  Conformation files from Ref [2] is [here] (http://people.cs.vt.edu/%7Eonufriev/CODES/DROSOPHILA_NUCLEUS.zip)   
  
-The inputs of the C++ code include the trajectory file, the LamSites text file, and the specific time frame obtained from the selection algorithm. We take a trajectory (one by one);
+The inputs of the C++ code include the trajectory file, the LamSites txt file, and the specific time frame obtained from the selection algorithm. We take a trajectory (one by one);
 to each trajectory, we randomly choose a time-slice (a piece). The trajectory file in Ref[2] include 400,000 snapshots.
 The outputs are the "$\langle R_s \rangle$" values corresponding to all genomic distance.
 
