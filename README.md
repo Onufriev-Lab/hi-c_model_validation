@@ -1,21 +1,6 @@
 ## Quantifying Conformational Variability of 3D Genome Organization in Fruit Fly
 ![Slinkies](figures/slinkies.png)
 
-## MC-TAD Algorithm to refine the representation of the polymer chain from the lower resolution to a higher one
-
-1.  To generate permissible paths inside two cubes in Y+- and Z+- direction using Monte Carlo algorithm, run
-```
-python3 #1_Distance_4Y_direction.py
-```
-2. To generate permissible paths inside two cubes in X+ directions, run
-```
-python3 #2_Distance_X_direction.py
-```
-3. To extract the unique paths inside two cubes, run
-```
-python3 #3_Sum4Y_X_unique_4_4_4.py 
-```
-
 ## To Compute Rs 
 
 ### Conformations in mol2 format:
