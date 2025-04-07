@@ -1,4 +1,4 @@
-#Thanks to GPT 3.5 to help me to write this script.
+
 # In line 48, 2,190 needs to be there instead of 2,243, since from 2,191 to the end, is
 # heterochromatin, not TAD regions (Euchromatin)
 
