@@ -45,8 +45,6 @@ def read_file(filename):
                 parts = line.split()
                 if len(parts) >= 5:
                     try:
-                #         aa+=1
-                #         if(aa==5): break
                         if int(parts[0]) >= 2243:
                             break
                         x, y, z = map(float, parts[2:5])
