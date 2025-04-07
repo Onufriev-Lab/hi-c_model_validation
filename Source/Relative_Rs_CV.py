@@ -20,7 +20,7 @@ import csv
 filename = "Rs_data_Tolokh_final_UpConversionPlusRelative.csv"
 
 #data = pd.read_csv('/Users/samir/Desktop/lamin_mutant_new.csv')
-data = pd.read_csv('/Users/samir/C Drive/Old_Desktop/ten_times_tolokh_10kb/nineth_.csv')
+data = pd.read_csv('/Users/samir/ten_times_tolokh_10kb/3rd.csv')
    
 #9898 is the largest one
 seed = 61001
