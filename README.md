@@ -3,7 +3,7 @@
 
 ## To Compute $\langle R_s \rangle$
 
-To compute $\langle R_s \rangle$ values from trajectories,
+To compute $\langle R_s \rangle$ values from trajectories in VTF format,
 
 Compile the C++ code:
 ```
