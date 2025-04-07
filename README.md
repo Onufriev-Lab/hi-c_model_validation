@@ -3,14 +3,6 @@
 
 ## To Compute $\langle R_s \rangle$
 
-### Conformations in mol2 format:
-To compute $\langle R_s \rangle$ values from trajectories, run
-```
-python3 Rs_values_mol2.py
-```
-Conformation files from Ref [1] is [here] https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20292-z/MediaObjects/41467_2020_20292_MOESM4_ESM.zip)
-
-### Conformations in VTF format:
 To compute $\langle R_s \rangle$ values from trajectories,
 
 Compile the C++ code:
