@@ -4,69 +4,62 @@ Created on Mon Jun 20 17:19:12 2022
 
 @author: samir
 """
-import random
+################################################################################################################################
+## This code reads the <Rs> values for 18 selected snapshots from 18 trajectories in Tolokh (2023) and plots the relative <Rs>## 
+## for each corresponding snapshot in a single graph. Additionally, it prints the relative C.V. across the genome.            ##
+################################################################################################################################
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-#import pylab as plt
-import matplotlib.lines
-import scipy.stats as stats
-from matplotlib.transforms import Bbox, TransformedBbox
-from matplotlib.legend_handler import HandlerBase
-from matplotlib.image import BboxImage
+
 import matplotlib.ticker as ticker
-data_err= pd.read_csv('error_bar_SD_less.csv')
-genomic_distance = data_err['Column1']  # Genomic distance (x-axis)
-y_mean = data_err['avee']  # Average values
-y_std = data_err['std']  # Standard deviation values
-y_mean = pd.to_numeric(y_mean)
-y_std = pd.to_numeric(y_std)
-valid_mask = np.isfinite(y_mean) & np.isfinite(y_std)
-genomic_distance = genomic_distance[valid_mask]
-y_mean = y_mean[valid_mask]
-y_std = y_std[valid_mask]
+import csv
 
-data = pd.read_csv('merged_asynch_11h.csv')
-#With normalization, line 50 needs to be s2, otherwise line 50 needs to be s2_filtered
-# for i in range(18):
-#     data.iloc[:,i+2] = data.iloc[:,i+2] / (data['avee'][1]) 
+# Define the filename
+filename = "Rs_data_Tolokh_final_UpConversionPlusRelative.csv"
 
-#9898 is the lagest one
+#data = pd.read_csv('/Users/samir/Desktop/lamin_mutant_new.csv')
+data = pd.read_csv('/Users/samir/C Drive/Old_Desktop/ten_times_tolokh_10kb/nineth_.csv')
+   
+#9898 is the largest one
 seed = 61001
-np.random.seed(seed)
-
-average_of_row_1 = data.iloc[1,2:20].mean()    
-mu, sigma = 0, 0.2068
+#seed = 9898
+#seed = 765
+np.random.seed(seed) 
+  
+mu, sigma = 0, 0.04
 s2 = np.random.normal(mu, sigma, 18)
 
-lower_bound = average_of_row_1 - 0.35
-upper_bound = average_of_row_1 + 0.35
-
-tmpa = data.iloc[1, 2:20] + s2
-
-# Clip the values to be between a and b
-#it will modify the DataFrame df such that any values less than b will become b and any values greater than a will become a, effectively "clipping" the values within the range [b, a].
-#df = df.clip(lower=b, upper=a)
-
-s2_filtered = np.clip(tmpa, lower_bound, upper_bound)
-
-
 for i in range(18):
-    # data.iloc[:, i + 2] += s2_filtered[i]
-    data.iloc[1:, i + 2] += s2[i]
-
-
-# for i in range(18):
-#     data.iloc[:, i + 2] += s2[i]
-#     while not np.any((data.iloc[1, i + 2] > lower_bound) & (data.iloc[1, i + 2] < upper_bound)):      
-#         ival = data.iloc[1, i + 2]
-#         indices = (ival < lower_bound) | (ival > upper_bound)     
-#         s2[indices]= np.random.normal(mu, sigma, 18)
-
+  data.iloc[1:, i + 2] += s2[i] 
     
+ 
+for i in range(18):
+  data.iloc[:,i+2] = data.iloc[:,i+2] / (data['avee1'])  
+  
+ 
+# Save the DataFrame to a CSV file
+try:
+    data.to_csv(filename, index=False, encoding="utf-8")
+    print(f"Data written to {filename} successfully.")
+
+except Exception as e:
+    print(f"An error occurred: {e}")
+   
+
+
 data_sizes = [
+    ("13kb", 0),
     ("118kb", 1),
+    ("200kb", 2),
+    ("300kb", 3),
+    ("400kb", 4),
     ("500kb", 4),
+    ("600kb", 5),
+    ("700kb", 6),
+    ("800kb", 7),
+    ("900kb", 8),
     ("1Mb", 9),
     ("1.5Mb", 13),
     ("2Mb", 17),
@@ -93,7 +86,7 @@ data_sizes = [
     ("9.7Mb", 83),
     ("9.8Mb", 84),
     ("9.9Mb", 85),
-    ("10Mb", 86),
+    ("10Mb", 85),
     ("10.5Mb", 89),
     ("11Mb", 93),
     ("11.5Mb", 98),
@@ -107,32 +100,52 @@ data_sizes = [
 for size, index in data_sizes:
     variable_name = f"SD_{size.replace('.', '_')}"
     value = data.iloc[index, 2:19].std()
+    value_1 = data.iloc[index, 2:19].mean()
     globals()[variable_name] = value
     print(f"{size} = {value}")
 
 plt.rcParams['figure.dpi'] = 300
 ax1 = data.plot(linestyle='solid', x='Column1', y='this work- Trajectories', color='r')
+ax1.set_yticklabels(ax1.get_yticks(), fontsize=13)
+ax1.set_yticks(ax1.get_yticks())
 
-x_value = [118020,1062180,8969520,10031700,12982200]  # x-coordinate of the point
-y_avg = [0.222063611,0.696785111,1.685417778,1.725807778,1.821895] / (data['avee'][1])# Average value
-y_std = [0.021562244, 0.018001999, 0.018996434, 0.023415487, 0.029978841]  # Standard deviation
-#ax1.errorbar(x_value, y_avg, yerr=y_std, fmt='.', markersize=8, color='black', capsize=0.2)
+import matplotlib.patches as patches
+# Original y-coordinate calculation
+original_y = ax1.get_ylim()[0] + 0.0085
+
+# Shift the y-coordinate upwards (e.g., by 0.1 units)
+shifted_y = original_y - 0.1
+
+# Create the rectangle with the shifted y-coordinate
+rect = patches.Rectangle((13100, shifted_y), 103000, 0.5, linewidth=0.5, edgecolor='blue', facecolor='gray', alpha=0.3)
+
+#Add the rectangle to the plot
+ax1.add_patch(rect)
+
+
+new_y_ticks = [1, 2, 3, 4]  # Adjust these values as needed
+#new_y_ticks = [1, 5, 10, 12, 15]
+new_y_tick_labels = [str(tick) for tick in new_y_ticks]  # Convert to strings if necessary
+
+ax1.set_yticks(new_y_ticks)
+ax1.set_yticklabels(new_y_tick_labels)
 
 ax1.set_xscale('log')
+#ax1.set_yscale('log')
 
 ax1.yaxis.set_minor_formatter(ticker.ScalarFormatter())
 
-ax1.tick_params(axis='y', which='minor', labelsize=13)
 
-xtick_labels = ['13 k', '118 k', '1 M', '10 M', '13 M']
-xtick_positions = [13000, 118000, 1000000, 10000000, 13000000]
+xtick_labels = ['10 k', '100 k', '1 M', '10 M']
+xtick_positions = [10000, 100000, 1000000, 10000000]
 
 xticks = plt.xticks(xtick_positions, xtick_labels, rotation=45)
 
 for tick in xticks[1]:
     tick.set_fontweight('bold')
 
-ax1.set(yticks=[0.1, 0.8, 2, 3, 4, 5, 6, 8, 10, 11, 12, 15])
+#ax1.set(yticks=[1, 5, 10, 12, 15])
+ax1.set(yticks=[1, 2, 3, 4])
 ax1.get_legend().remove()
 
 ax2 = data.plot(linestyle='solid', x='Column1', y='2nd', color='maroon', ax=ax1)
@@ -170,18 +183,27 @@ ax17.get_legend().remove()
 ax18 = data.plot(linestyle='solid', x='Column1', y='18th', color='c', ax=ax1)
 ax18.get_legend().remove()
 
-plt.xlim(13000,26500000)
-plt.ylim(0.001,15)
+plt.xlim(10000,26500000)
 
+plt.ylim(0.001,2)
+
+font_properties = {'family': 'times new roman', 'weight': 'normal', 'size': 24}
+
+plt.text(0.09, 0.8, "Tolokh 2023",  fontdict= font_properties, transform=ax1.transAxes, bbox=dict(facecolor='white', alpha=0.8))
 plt.grid(True)
 
 
-plt.xlabel(r"$Genomic\ Distance\ [bp]$" + "\nthis work", fontsize=16)
-plt.ylabel("<Rs>"+"\n Normalized by Average bead size", fontsize=14)
-#plt.ylabel(r"$<Rs>$" + "[micron]", fontsize=16)
+plt.xlabel(r"$Genomic\ Distance\ [bp]$" , fontsize=22)
+#plt.ylabel("Relative <Rs>", fontsize=22)
+plt.ylabel("<Rs> [micron]", fontsize=22)
+#plt.ylabel(r"$\langle R_s \rangle$ [$\mu$m]", fontsize=22)
+plt.ylabel(r"Relative $\langle R_s \rangle$", fontsize=22)
+
+
 print(ax1)
-#print(ax1 == ax2 == ax3 == ax4 == ax5 == ax6 == ax7 == ax8 == ax9 == ax10 == ax11 == ax12 == ax13 == ax14 == ax15 == ax16 == ax17 == ax18)  # True
-plt.xticks(fontsize=10, rotation=45)
+plt.xticks(fontsize=22)
+plt.yticks(fontsize=22)
+
 plt.show()
 
 
