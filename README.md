@@ -10,11 +10,11 @@ python3 Rs_values_mol2.py
 
 To compute $\langle R_s \rangle$ values from trajectories in VTF format,
 
-Compile the C++ code:
+1. Compile the C++ code:
 ```
 g++ Rs_values_vtf.cpp -std=c++11 -oRs_values_vtf
 ````
-Run the C++ code:
+2. Run the C++ code:
 
 ```
 ./Rs_values_vtf <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> <snapshot_number> > <output_file>
