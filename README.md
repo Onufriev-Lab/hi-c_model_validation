@@ -26,9 +26,9 @@ To generate the input matrix for the code, follow these steps:
 
 1. **Run the provided C++ code** using the following command **10 times**, including the snapshot number and the trajectory file name in the names of the snapshots saved in the Conformations_Tolokh_2023 folder:
 
-   ```
+```
 ./Rs_values_vtf <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> <snapshot_number> > <output_file>
-   ```
+```
 
    Repeat this for each run, modifying the output file name accordingly (`column_2.txt`, ..., `column_10.txt`).
 
@@ -51,9 +51,9 @@ To generate the input matrix for the code, follow these steps:
    - Insert an **additional first row** indicating the **cube size** for each column.
    - The first row will start with the small cube size (e.g., `13000`) followed by repeated `0.09` values for each column:
 
-     ```
-     13000, 0.09, 0.09, ..., 0.09
-     ```
+   ```
+   13000, 0.09, 0.09, ..., 0.09
+   ```
 
 ---
 
