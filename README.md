@@ -46,8 +46,9 @@ To generate the input matrix for the code, follow these steps:
    ```
    118020, 236040, 354060, ..., (N * 118020)
    ```
-
-4. **After up-conversion to 10 kb resolution**, you must:
+4. **Add an additional column at the end represent the average values over each row.**
+   
+5. **After up-conversion to 10 kb resolution**, you must:
    - Insert an **additional first row** indicating the **bin size** (MC-TAD Algorithm)[micron] for each column.
    - The first row will start with the  (e.g., `13000`) followed by repeated `0.09` values for each column:
 
@@ -61,22 +62,22 @@ To generate the input matrix for the code, follow these steps:
 
 Here’s how the matrix should look **before up-conversion**:
 
-| Genomic_Distance | Column 1 | Column 2 | ... | Column 10 |
-|-----------------------|----------|----------|------|-----------|
-| 118020                | 0.23     | 0.42     | ...  | 0.35      |
-| 236040                | 0.18     | 0.30     | ...  | 0.27      |
+| Genomic_Distance | Column 1 | Column 2 | ... | Column 10 | avee1
+|-----------------------|----------|----------|------|-----------|--------
+| 118020                | 0.23     | 0.42     | ...  | 0.35      |  <average_row1>
+| 236040                | 0.18     | 0.30     | ...  | 0.27      |   ...
 | 354060                | 0.20     | 0.22     | ...  | 0.31      |
-| ...                   | ...      | ...      | ...  | ...       |
+| ...                   | ...      | ...      | ...  | ...       |   ...
 
 After **up-conversion to 10 kb resolution**, it will look like:
 
-| Genomic_Distance | Column 1 | Column 2 | ... | Column 10 |
-|-----------------------|----------|----------|------|-----------|
-| 13000                 | 0.09     | 0.09     | ...  | 0.09      |
-| 118020                | 0.23     | 0.42     | ...  | 0.35      |
+| Genomic_Distance | Column 1 | Column 2 | ... | Column 10 | avee1
+|-----------------------|----------|----------|------|-----------|----------
+| 13000                 | 0.09     | 0.09     | ...  | 0.09      |  <average_row1>
+| 118020                | 0.23     | 0.42     | ...  | 0.35      |   ...
 | 236040                | 0.18     | 0.30     | ...  | 0.27      |
 | 354060                | 0.20     | 0.22     | ...  | 0.31      |
-| ...                   | ...      | ...      | ...  | ...       |
+| ...                   | ...      | ...      | ...  | ...       |   ...
 
 
 ## To Compute Relative $\langle R_s \rangle$, CV and Relative CV with the input data already generated
