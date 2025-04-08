@@ -62,7 +62,7 @@ To generate the input matrix for the code, follow these steps:
 
 Here’s how the matrix should look **before up-conversion**:
 
-| Genomic_Distance | Column 1 | Column 2 | ... | Column 10 | avee1
+| Genomic_Distance | 1st | 2nd | ... | 10th | avee1
 |-----------------------|----------|----------|------|-----------|--------
 | 118020                | 0.23     | 0.42     | ...  | 0.35      |  <average_row1>
 | 236040                | 0.18     | 0.30     | ...  | 0.27      |   ...
@@ -71,7 +71,7 @@ Here’s how the matrix should look **before up-conversion**:
 
 After **up-conversion to 10 kb resolution**, it will look like:
 
-| Genomic_Distance | Column 1 | Column 2 | ... | Column 10 | avee1
+| Genomic_Distance | 1st | 2nd | ... | 10th | avee1
 |-----------------------|----------|----------|------|-----------|----------
 | 13000                 | 0.09     | 0.09     | ...  | 0.09      |  <average_row1>
 | 118020                | 0.23     | 0.42     | ...  | 0.35      |   ...
@@ -80,12 +80,12 @@ After **up-conversion to 10 kb resolution**, it will look like:
 | ...                   | ...      | ...      | ...  | ...       |   ...
 
 
-## To Compute Relative $\langle R_s \rangle$, CV and Relative CV with the input data already generated
-To compute CV valuse across the genome before incorporate the up-conversion, run
+## To Compute Relative $\langle R_s \rangle$, CH and Relative CH with the input data already generated
+To compute CH valuse across the genome before incorporate the up-conversion, run
 ```
-python3 Rs_CV_before_UpConversion.py
+python3 Rs_CH_before_UpConversion.py
 ```
-To compute Relative $\langle R_s \rangle$ and Relative CV values across the genome after up-conversion, run
+To compute Relative $\langle R_s \rangle$ and Relative CH values across the genome after up-conversion, run
 ```
 python3 Relative_Rs_CV.py
 ```
