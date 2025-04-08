@@ -61,7 +61,7 @@ To generate the input matrix for the code, follow these steps:
 
 Here’s how the matrix should look **before up-conversion**:
 
-| Genomic Distance (bp) | Column 1 | Column 2 | ... | Column 10 |
+| Genomic_Distance | Column 1 | Column 2 | ... | Column 10 |
 |-----------------------|----------|----------|------|-----------|
 | 118020                | 0.23     | 0.42     | ...  | 0.35      |
 | 236040                | 0.18     | 0.30     | ...  | 0.27      |
@@ -70,7 +70,7 @@ Here’s how the matrix should look **before up-conversion**:
 
 After **up-conversion to 10 kb resolution**, it will look like:
 
-| Genomic Distance (bp) | Column 1 | Column 2 | ... | Column 10 |
+| Genomic_Distance | Column 1 | Column 2 | ... | Column 10 |
 |-----------------------|----------|----------|------|-----------|
 | 13000                 | 0.09     | 0.09     | ...  | 0.09      |
 | 118020                | 0.23     | 0.42     | ...  | 0.35      |
