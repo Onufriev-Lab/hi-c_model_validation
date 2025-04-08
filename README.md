@@ -39,7 +39,7 @@ To generate the input matrix for the code, follow these steps:
 
    ```
    bin_size = <chromosome_length> / <number_of_TADs>
-            = 1,180,200 / 10 = 118,020 bp
+            = 118,020 bp
    ```
 
    So the values would be:
