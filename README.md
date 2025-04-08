@@ -24,10 +24,10 @@ The outputs are the $\langle R_s \rangle$ values corresponding to all genomic di
 
 To generate the input matrix for the code, follow these steps:
 
-1. **Run the provided C++ code** using the following command **10 times**, following the instructions in the repository:
+1. **Run the provided C++ code** using the following command **10 times**, including the snapshot number and the trajectory file name in the names of the snapshots saved in the Conformations_Tolokh_2023 folder:
 
    ```bash
-   ./generate_column input_params.txt > column_1.txt
+./Rs_values_vtf <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> <snapshot_number> > <output_file>
    ```
 
    Repeat this for each run, modifying the output file name accordingly (`column_2.txt`, ..., `column_10.txt`).
