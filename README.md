@@ -3,6 +3,11 @@
 
 ## To Compute $\langle R_s \rangle$
 
+To compute $\langle R_s \rangle$ values from trajectories in mol2 format, run
+```
+python3 Rs_values_mol2.py
+```
+
 To compute $\langle R_s \rangle$ values from trajectories in VTF format,
 
 Compile the C++ code:
