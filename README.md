@@ -48,7 +48,7 @@ To generate the input matrix for the code, follow these steps:
    ```
 
 4. **After up-conversion to 10 kb resolution**, you must:
-   - Insert an **additional first row** indicating the **cube size** for each column.
+   - Insert an **additional first row** indicating the **bin size** (MC-TAD Algorithm)[micron] for each column.
    - The first row will start with the  (e.g., `13000`) followed by repeated `0.09` values for each column:
 
    ```
