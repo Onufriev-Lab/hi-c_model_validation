@@ -38,8 +38,7 @@ To generate the input matrix for the code, follow these steps:
    This column should contain values that are **multiples of the genomic bin size**, calculated as:
 
    ```
-   bin_size = <chromosome_length> / <number_of_TADs>
-            = 118,020 bp
+   bin_size = <chromosome_length> / <number_of_TADs = 118,020 bp
    ```
 
    So the values would be:
