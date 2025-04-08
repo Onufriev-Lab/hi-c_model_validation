@@ -41,15 +41,13 @@ To generate the input matrix for the code, follow these steps:
    bin_size = <chromosome_length> / <number_of_TADs> = 118,020 bp
    ```
 
-   So the values would be:
+   Thus, the values would be:  118020, 236040, 354060, ..., (N * 118020)
 
-   ```
-   118020, 236040, 354060, ..., (N * 118020)
-   ```
-4. **Add an additional column at the end represent the average values over each row.**
+4. **Add an additional column at the end that represents the average values over each row.**
    
 5. **After up-conversion to 10 kb resolution**, you must:
-   - Insert an **additional first row** indicating the **bin size** (MC-TAD Algorithm)[micron] for each column.
+   - Insert an **additional first row** indicating Genomic Distance that correspond to the **bin size** (MC-TAD Algorithm)[micron].
+     
    - The first row will start with the  (e.g., `13000`) followed by repeated `0.09` values for each column:
 
    ```
