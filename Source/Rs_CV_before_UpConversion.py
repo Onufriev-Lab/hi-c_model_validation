@@ -2,7 +2,7 @@
 
 ################################################################################################################################
 ## This code reads the <Rs> values for 18 selected snapshots from 18 trajectories in Tolokh (2023) and plots the relative <Rs>## 
-## for each corresponding snapshot in a single graph. Additionally, it prints the relative C.V. across the genome.            ##
+## for each corresponding snapshot in a single graph. Additionally, it prints the C.H. across the genome.            ##
 ################################################################################################################################
 
 import numpy as np
