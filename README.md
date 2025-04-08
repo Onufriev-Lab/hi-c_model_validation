@@ -30,7 +30,7 @@ To generate the input matrix for the code, follow these steps:
 ./Rs_values_vtf <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> <snapshot_number> > <output_file>
 ```
 
-   Repeat this for each run, modifying the output file name accordingly (`column_2.txt`, ..., `column_10.txt`).
+ Repeat this for each run, modifying the output file name accordingly (`column_2.txt`, ..., `column_10.txt`).
 
 2. **Construct the input matrix** by placing all 10 generated columns **side by side** (horizontally). This will result in a matrix with each column representing one run of the code.
 
@@ -49,7 +49,7 @@ To generate the input matrix for the code, follow these steps:
 
 4. **After up-conversion to 10 kb resolution**, you must:
    - Insert an **additional first row** indicating the **cube size** for each column.
-   - The first row will start with the small cube size (e.g., `13000`) followed by repeated `0.09` values for each column:
+   - The first row will start with the  (e.g., `13000`) followed by repeated `0.09` values for each column:
 
    ```
    13000, 0.09, 0.09, ..., 0.09
