@@ -16,7 +16,7 @@ import csv
 filename = "Rs_data_Tolokh_final_UpConversionPlusRelative.csv"
 
 #data = pd.read_csv('/Users/samir/Desktop/lamin_mutant_new.csv')
-data = pd.read_csv('/Users/samir/C Drive/Old_Desktop/ten_times_tolokh_10kb/nineth_.csv')
+data = pd.read_csv('/Data/3rd_set.csv')
 
    
 #9898 is the largest one
