@@ -12,10 +12,10 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import csv
 
-# Define the filename
+# Output file
 filename = "Rs_data_Tolokh_final_UpConversionPlusRelative.csv"
 
-#data = pd.read_csv('/Users/samir/Desktop/lamin_mutant_new.csv')
+# Input file
 data = pd.read_csv('/Data/3rd_set.csv')
 
    
