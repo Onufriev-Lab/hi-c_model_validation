@@ -85,16 +85,20 @@ After **up-conversion to 10 kb resolution**, it will look like:
 
 ## To Compute Relative $\langle R_s \rangle$, CH and Relative CH with the input data already generated
 
-## Prerequisites
+## 🛠 Setup using Conda (Recommended)
 
-These scripts use `matplotlib` for plotting. On most Linux systems, required dependencies like `tkinter` (used for rendering plots) are pre-installed or available via the system's package manager (e.g., `apt`, `dnf`, etc.).
+This project uses a Conda environment to manage dependencies.
 
-However, macOS users may need to manually install `tkinter` support by running:
+### Step 1: Install Miniforge or Miniconda
+- [Miniforge (recommended for Apple Silicon)](https://github.com/conda-forge/miniforge)
+- [Miniconda (works for all platforms)](https://docs.conda.io/en/latest/miniconda.html)
+
+### Step 2: Create the environment
 
 ```
-brew install python-tk
+conda env create -f environment.yml
+conda activate plotting
 ```
-Homebrew (brew) is the recommended package manager for macOS. If you don’t have it installed, visit https://brew.sh to get started.
 
 To compute CH valuse across the genome before incorporate the up-conversion, run
 ```
