@@ -85,15 +85,15 @@ After **up-conversion to 10 kb resolution**, it will look like:
 
 ## To Compute Relative $\langle R_s \rangle$, CH and Relative CH with the input data already generated
 
-## 🛠 Setup using Conda (Recommended)
+### 🛠 Setup using Conda (Recommended)
 
 This project uses a Conda environment to manage dependencies.
 
-### Step 1: Install Miniforge or Miniconda
+#### Step 1: Install Miniforge or Miniconda
 - [Miniforge (recommended for Apple Silicon)](https://github.com/conda-forge/miniforge)
 - [Miniconda (works for all platforms)](https://docs.conda.io/en/latest/miniconda.html)
 
-### Step 2: Create the environment
+#### Step 2: Create the environment
 
 ```
 conda env create -f environment.yml
@@ -107,6 +107,11 @@ python3 Rs_CH_before_UpConversion.py
 To compute Relative $\langle R_s \rangle$ and Relative CH values across the genome after up-conversion, run
 ```
 python3 Relative_Rs_CH.py
+```
+If you get an error like CommandNotFoundError: conda, make sure your .bashrc or .zshrc is sourcing Conda correctly. For example:
+
+```
+source ~/miniforge3/etc/profile.d/conda.sh
 ```
 
 
