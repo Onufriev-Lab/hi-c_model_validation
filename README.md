@@ -84,6 +84,18 @@ After **up-conversion to 10 kb resolution**, it will look like:
 
 
 ## To Compute Relative $\langle R_s \rangle$, CH and Relative CH with the input data already generated
+
+## Prerequisites
+
+These scripts use `matplotlib` for plotting. On most Linux systems, required dependencies like `tkinter` (used for rendering plots) are pre-installed or available via the system's package manager (e.g., `apt`, `dnf`, etc.).
+
+However, macOS users may need to manually install `tkinter` support by running:
+
+```
+brew install python-tk
+```
+Homebrew (brew) is the recommended package manager for macOS. If you don’t have it installed, visit https://brew.sh to get started.
+
 To compute CH valuse across the genome before incorporate the up-conversion, run
 ```
 python3 Rs_CH_before_UpConversion.py
