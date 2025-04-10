@@ -100,7 +100,8 @@ conda env create -f environment.yml
 conda activate plotting
 ```
 
-To compute CH valuse across the genome before incorporate the up-conversion, run
+To compute CH values
+across the genome before incorporate the up-conversion, run
 ```
 python3 Rs_CH_before_UpConversion.py
 ```
