@@ -1,5 +1,3 @@
-## Quantifying Conformational Heterogeneity of 3D Genome Organization in Fruit Fly
-![Slinkies](figures/slinkies.png)
 
 ## To Compute $\langle R_s \rangle$
 
