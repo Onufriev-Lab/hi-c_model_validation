@@ -86,7 +86,7 @@ After **up-conversion to 10 kb resolution**, it will look like:
 ### 🛠 Setup on Linux
 These instructions have been tested on CentOS 7.
 
-Note, these scripts require Python 3.7 or higher to run.
+Note, these scripts require Python 3.7 or higher and anaconda3 to manage packages to run.
 
 To compute CH values
 across the genome before incorporate the up-conversion, run
