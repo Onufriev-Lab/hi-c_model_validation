@@ -104,6 +104,8 @@ Create a Python 3.7 environment:
 conda create -n py37 python=3.7
 conda activate py37
 ```
+Now you can install required packages using conda install or pip.
+
 To compute C.H. values
 across the genome before incorporate the up-conversion, run
 ```
