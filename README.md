@@ -93,7 +93,7 @@ across the genome before incorporate the up-conversion, run
 ```
 python3 Rs_CH_before_UpConversion.py
 ```
-To compute Relative $\langle R_s \rangle$ and Relative CH values across the genome after up-conversion, run
+To compute Relative $\langle R_s \rangle$ and Relative C.H. values across the genome after up-conversion, run
 ```
 python3 Relative_Rs_CH.py
 ```
