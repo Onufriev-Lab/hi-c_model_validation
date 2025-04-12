@@ -88,7 +88,7 @@ These instructions have been tested on CentOS 7.
 
 Note, these scripts require Python 3.7 or higher and anaconda3 to manage packages to run.
 
-To compute CH values
+To compute C.H. values
 across the genome before incorporate the up-conversion, run
 ```
 python3 Rs_CH_before_UpConversion.py
