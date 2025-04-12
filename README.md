@@ -97,11 +97,6 @@ To compute Relative $\langle R_s \rangle$ and Relative CH values across the geno
 ```
 python3 Relative_Rs_CH.py
 ```
-If you get an error like CommandNotFoundError: conda, make sure your .bashrc or .zshrc is sourcing Conda correctly. For example:
-
-```
-source ~/miniforge3/etc/profile.d/conda.sh
-```
 
 
 ## References
