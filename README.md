@@ -87,7 +87,7 @@ After **up-conversion to 10 kb resolution**, it will look like:
 These instructions have been tested on CentOS 7.
 
 Note, these scripts require Python 3.7.3 or higher to run and anaconda3 to manage packages.
-To install Anaconda3, crate conda environment and install packages in the newer python version:
+To install Anaconda3, create conda environment and install packages in the newer python version:
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
 ```
