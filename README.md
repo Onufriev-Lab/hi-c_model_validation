@@ -105,7 +105,7 @@ Create a Python 3.7.3 environment:
 conda create -n py373 python=3.7.3
 conda activate py373
 ```
-Now you can install required packages using conda install or pip. In case your base python version is 3.11.7, you will not need to install the required packages (e.g. pandas, pandas, etc.)
+Now you can install required packages using conda install or pip. In case your base python version is 3.11.7, you will not need to install the required packages (e.g. numpy, pandas, etc.)
 
 To compute C.H. values
 across the genome before incorporate the up-conversion, run
