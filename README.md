@@ -86,7 +86,7 @@ After **up-conversion to 10 kb resolution**, it will look like:
 ### 🛠 Setup on Linux
 These instructions have been tested on CentOS 7.
 
-Note, these scripts require Python 3.7.3 or higher to run and anaconda3 to manage packages.
+Note, these scripts require Python 3.7.3 or higher to run and anaconda3 to manage packages.  
 To install Anaconda3, create conda environment and install packages in the newer python version:
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
@@ -99,12 +99,12 @@ Run this:
 ```
 source ~/.bashrc
 ```
-Create a Python 3.7 environment:
+Create a Python 3.7.3 environment:
 ```
-conda create -n py37 python=3.7
-conda activate py37
+conda create -n py373 python=3.7.3
+conda activate py373
 ```
-Now you can install required packages using conda install or pip.
+Now you can install required packages using conda install or pip. In case your base python version is 3.11.7, you will not need to install the required packages (e.g. pandas, pandas, etc.)
 
 To compute C.H. values
 across the genome before incorporate the up-conversion, run
