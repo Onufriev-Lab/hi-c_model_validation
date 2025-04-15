@@ -9,19 +9,54 @@ The input file name with the data and the output file name are specified inside 
 
 To compute $\langle R_s \rangle$ values from trajectories in "vtf" format,
 
-1. Compile the C++ code:
-```
-g++ Rs_values_vtf.cpp -std=c++11 -oRs_values_vtf
-````
-2. Run the C++ code:
+![Built with C++](https://img.shields.io/badge/Built%20with-C%2B%2B11-blue?style=flat-square&logo=c%2B%2B&logoColor=white)
+
+## 🧩 Dependencies
+
+- A **C++11 compatible compiler**, such as `g++`
+- POSIX-compliant environment (Linux/macOS)
+- No external libraries required
+
+> Note: A "C++11 compatible compiler" means any compiler that supports the C++11 standard or newer (e.g., C++14, C++17, C++20) will also work.
+
+---
+
+## ⚙️ Compiling
+
+To compile the code, run:
 
 ```
-./Rs_values_vtf <simulation_name>.vtf LamSites_bID_0.txt 0.2 <snapshot_number> <snapshot_number> > <output_file>
+g++ Rs_values_vtf.cpp -std=c++11 -o Rs_values_vtf
+````
+
+## 🚀 Usage
+
+Run the executable with the following command:
+
 ```
- Conformation files from Ref [2] is [here] (http://people.cs.vt.edu/%7Eonufriev/CODES/DROSOPHILA_NUCLEUS.zip)  
- 
-The inputs of the C++ code include the trajectory file, the LamSites txt file, and the specific time frame obtained from the selection algorithm. We take a trajectory (one by one);
-to each trajectory, we randomly choose a time-slice (a piece). The trajectory file in Ref[2] include 400,000 snapshots.
+./Rs_values_vtf <simulation_file.vtf> <LamSites_bID_0.txt> <tolerance> <start_snapshot> <end_snapshot> > <output_file>
+````
+### Arguments
+
+- `<simulation_file.vtf>`: Trajectory file in VTF format
+- `<lamella_sites_file.txt>`: Text file Radius size informationn for each TAD
+- `<tolerance>`: According to Ref [2], **bead-bead contact** is defined as the configuration where the distance between the centers of the two beads, *d<sub>ij</sub>*, is less than *r<sub>i</sub> + r<sub>j</sub> + 0.2 µm*.
+- `<start_snapshot>`: First snapshot index to include
+- `<end_snapshot>`: Last snapshot index to include
+- `<output_file>`: Output file to store results (use redirection `>`)
+
+---
+
+### Example
+
+```
+./Rs_values_vtf example_sim.vtf LamSites_bID_0.txt 0.2 500 500 > Rs_output.csv
+````
+This analyzes snapshot 500 from example_sim.vtf and writes the results to Rs_output.csv
+
+
+Conformation files from Ref [2] is [here] (http://people.cs.vt.edu/%7Eonufriev/CODES/DROSOPHILA_NUCLEUS.zip)  
+
 The outputs are the $\langle R_s \rangle$ values corresponding to all genomic distance.
 
 ### 🧪 Input Data Preparation
