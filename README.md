@@ -159,4 +159,5 @@ python3 Relative_Rs_CH.py
 
 [2] Tolokh, Igor S., Nicholas Allen Kinney, Igor V. Sharakhov, and Alexey V. Onufriev. "Strong interactions between highly dynamic lamina-associated domains and the nuclear envelope stabilize the 3D architecture of Drosophila interphase chromatin." Epigenetics & Chromatin 16, no. 1 (2023): 1-25.
 
-[3] Li, Qingjiao, Harianto Tjong, Xiao Li, Ke Gong, ... Alber. "The three-dimensional genome organization of Drosophila melanogaster through data integration." Genome Biology 18 (2017): 1-22.
+[3] Li, Qingjiao, Harianto Tjong, Xiao Li, Ke Gong, Xianghong Jasmine Zhou, Irene Chiolo, and Frank Alber. "The three-dimensional genome organization of Drosophila melanogaster through data integration." Genome biology 18 (2017): 1-22.
+
