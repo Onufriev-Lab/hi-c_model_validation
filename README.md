@@ -40,7 +40,7 @@ Run the executable with the following command:
 <span style="color:red">&lt;</span>start_snapshot<span style="color:red">&gt;</span> \
 <span style="color:red">&lt;</span>end_snapshot<span style="color:red">&gt;</span> \
 > <span style="color:red">&lt;</span>output_file<span style="color:red">&gt;</span>
-````
+
 ### Arguments
 
 - `<simulation_file.vtf>`: Trajectory file in VTF format
