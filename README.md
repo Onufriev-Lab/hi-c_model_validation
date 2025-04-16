@@ -33,10 +33,9 @@ g++ Rs_values_vtf.cpp -std=c++11 -o Rs_values_vtf
 
 Run the executable with the following command:
 
-
-```bash
-./Rs_values_vtf <simulation_file.vtf> <LamSites_bID_0.txt> <tolerance> <start_snapshot> <end_snapshot> > <output_file>
-```
+<code>
+./Rs_values_vtf <span style="color:red">&lt;simulation_file.vtf&gt;</span> <span style="color:red">&lt;LamSites_bID_0.txt&gt;</span> <span style="color:red">&lt;tolerance&gt;</span> <span style="color:red">&lt;start_snapshot&gt;</span> <span style="color:red">&lt;end_snapshot&gt;</span> &gt; <span style="color:red">&lt;output_file&gt;</span>
+</code>
 
 ### Arguments
 
