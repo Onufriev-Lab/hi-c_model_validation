@@ -39,7 +39,7 @@ Run the executable with the following command:
 ### Arguments
 
 - `<simulation_file.vtf>`: Trajectory file in VTF format
-- `<lamella_sites_file.txt>`: Text file Radius size informationn for each TAD
+- `<LamSites_bID_0.txt>`: file contains the radius size information of each TAD.
 - `<tolerance>`: According to Ref [2], **bead-bead contact** is defined as the configuration where the distance between the centers of the two beads, *d<sub>ij</sub>*, is less than *r<sub>i</sub> + r<sub>j</sub> + 0.2 µm*.
 - `<start_snapshot>`: First snapshot index to include
 - `<end_snapshot>`: Last snapshot index to include
