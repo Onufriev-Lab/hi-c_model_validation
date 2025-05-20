@@ -28,12 +28,12 @@ np.random.seed(seed)
 mu, sigma = 0, 0.04
 s2 = np.random.normal(mu, sigma, 18)
 
-for i in range(18):
-  data.iloc[1:, i + 1] += s2[i] 
+#for i in range(18):
+#  data.iloc[1:, i + 1] += s2[i] 
     
  
-for i in range(18):
-  data.iloc[:,i+1] = data.iloc[:,i+1] / (data['avee1'])  
+#for i in range(18):
+#  data.iloc[:,i+1] = data.iloc[:,i+1] / (data['avee1'])  
   
  
 # Save the DataFrame to a CSV file
@@ -100,5 +100,4 @@ for size, index in data_sizes:
     value_1 = data.iloc[index, 1:18].mean()
     globals()[variable_name] = value
     print(f"{size} = {value}")
-
 
