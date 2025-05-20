@@ -1,3 +1,9 @@
+## To Compute $\langle R_s \rangle$ and relative C.H. in Hilbert Curves:
+```
+python3 hilbert_curve_approx.py
+```
+
+The base (deterministic) Hilbert curve is generated using a Gray-code-based decoder. Additional curves (17 others, for a total of 18) are generated using randomized orientations at each recursion depth. 
 
 ## To Compute $\langle R_s \rangle$
 
