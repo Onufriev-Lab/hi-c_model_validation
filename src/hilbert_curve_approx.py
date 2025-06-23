@@ -17,7 +17,7 @@ p = 4           # Hilbert curve order (edge length = 2**p, total points = 8**p)
 NC = 18         # Number of curves to generate
 K = 4           # Number of curves to visualize (first K)
 NP = 30         # Number of initial points to plot for each curve
-SEED = 2032   # RNG seed for reproducibility
+SEED = 2025   # RNG seed for reproducibility
 
 # -------------------- Hilbert decoder (canonical) --------------------
 def hilbert_points(order):
