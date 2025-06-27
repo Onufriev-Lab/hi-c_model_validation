@@ -1,3 +1,4 @@
+# Quantifying conformational heterogeneity of 3D genome organization in fruit fly
 ## To Compute $\langle R_s \rangle$ and relative C.H. in Hilbert Curves
 ```
 python3 hilbert_curve_approx.py
