@@ -1,6 +1,7 @@
 # Quantifying conformational heterogeneity of 3D genome organization in fruit fly
 [Preprint](https://www.biorxiv.org/content/10.1101/2025.05.24.655945v1.abstract) is available.
 
+![Alt text](hi-c_model_validation/figures/Picture1.png)
 
 ## To Compute $\langle R_s \rangle$ and relative C.H. in Hilbert Curves
 ```
