@@ -1,5 +1,4 @@
 # Quantifying conformational heterogeneity of 3D genome organization in fruit fly
-[Preprint](https://www.biorxiv.org/content/10.1101/2025.05.24.655945v1.abstract) is available.
 
 ![Hi-C Model](https://raw.githubusercontent.com/Onufriev-Lab/hi-c_model_validation/main/figures/Picture1.png)
 
