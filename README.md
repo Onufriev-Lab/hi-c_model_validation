@@ -165,12 +165,10 @@ To compute Relative $\langle R_s \rangle$ and Relative C.H. values across the ge
 python3 Relative_Rs_CH.py
 ```
 
+## 📢 Citation
 
-## References
+If you use this code or data in your work, please cite:
 
-[1] Ulianov, Sergey V., Vlada V. Zakharova, Aleksandra A. Galitsyna, Pavel I. Kos, Kirill E. Polovnikov, Ilya M. Flyamer, Elena A. Mikhaleva et al. "Order and stochasticity in the folding of individual Drosophila genomes." Nature communications 12, no. 1 (2021): 41.
+Mali S, Tolokh IS, Cross E, Onufriev AV (2025) Quantifying conformational heterogeneity of 3D genome organization in fruit fly. PLoS One 20(7): e0326927. https://doi.org/10.1371/journal.pone.0326927
 
-[2] Tolokh, Igor S., Nicholas Allen Kinney, Igor V. Sharakhov, and Alexey V. Onufriev. "Strong interactions between highly dynamic lamina-associated domains and the nuclear envelope stabilize the 3D architecture of Drosophila interphase chromatin." Epigenetics & Chromatin 16, no. 1 (2023): 1-25.
-
-[3] Li, Qingjiao, Harianto Tjong, Xiao Li, Ke Gong, Xianghong Jasmine Zhou, Irene Chiolo, and Frank Alber. "The three-dimensional genome organization of Drosophila melanogaster through data integration." Genome biology 18 (2017): 1-22.
 
