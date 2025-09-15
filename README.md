@@ -12,13 +12,13 @@ The base approximate Hilbert curve is generated using a Gray-code-based decoder.
 
 ## To Compute $\langle R_s \rangle$ in real data models
 
-To compute $\langle R_s \rangle$ values from snapshots in "mol2" format, run
+1. To compute $\langle R_s \rangle$ values from snapshots in "mol2" format, run
 ```
 python3 Rs_values_mol2.py
 ```
 The input file name with the data and the output file name are specified inside the script.
 
-To compute $\langle R_s \rangle$ values from trajectories in "vtf" format,
+2. To compute $\langle R_s \rangle$ values from trajectories in "vtf" format,
 
 ![Built with C++](https://img.shields.io/badge/Built%20with-C%2B%2B11-blue?style=flat-square&logo=c%2B%2B&logoColor=white)
 
